@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: fccc0ca11c708774596ad40c5562dcea
+guid: bf623ea199a2c8d48a0038650419fdd3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3040860204189902047
-    second: oil_round_0
-  - first:
-      213: 6458158820742424479
-    second: oil_round_1
+      213: -6143294736338543782
+    second: bathtub_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: oil_round_0
+      name: bathtub_0
       rect:
         serializedVersion: 2
-        x: 110
-        y: 164
-        width: 298
-        height: 123
+        x: 48
+        y: 111
+        width: 399
+        height: 198
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 12b93a561c1bcc5d0800000000000000
-      internalID: -3040860204189902047
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oil_round_1
-      rect:
-        serializedVersion: 2
-        x: 294
-        y: 145
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f97686d0b3dff9950800000000000000
-      internalID: 6458158820742424479
+      spriteID: a5b93026cf1aebaa0800000000000000
+      internalID: -6143294736338543782
       vertices: []
       indices: 
       edges: []
@@ -172,9 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      oil_round_0: -3040860204189902047
-      oil_round_1: 6458158820742424479
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

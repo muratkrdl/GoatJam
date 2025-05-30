@@ -137,6 +137,7 @@ public class UIManager : MonoBehaviour
         SoundManager.Instance?.SetMusicVolume(value);
         if (musicValueText != null)
             musicValueText.text = Mathf.RoundToInt(value * 100) + "%";
+        SoundManager.Instance?.PlayButtonClick();
     }
 
     void OnSFXVolumeChanged(float value)
@@ -144,6 +145,7 @@ public class UIManager : MonoBehaviour
         SoundManager.Instance?.SetSFXVolume(value);
         if (sfxValueText != null)
             sfxValueText.text = Mathf.RoundToInt(value * 100) + "%";
+        SoundManager.Instance?.PlayButtonClick();
     }
 
     void OnSettingsBackClicked()
