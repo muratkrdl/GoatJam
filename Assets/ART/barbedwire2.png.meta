@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      barbedwire2_0: -8922070079451749624
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

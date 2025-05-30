@@ -10,8 +10,8 @@ namespace _Scripts.Object.Platforms
         [SerializeField] private float3 movePos;
         [SerializeField] private float3 returnPos;
 
-        [SerializeField] private Ease easeMode;
-        [SerializeField] private float duration;
+        [SerializeField] private Ease easeMode = Ease.Linear;
+        [SerializeField] private float duration = 4f;
 
         protected override void Start()
         {

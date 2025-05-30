@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 52f79a9f3a821764e8fa0379c3ae5462
+guid: 778adfd86eaa72347ace506fa50d6e36
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 619955686924334006
-    second: barbedwire1_0
+      213: 7299521473456122557
+    second: barbedwire4_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: barbedwire1_0
+      name: barbedwire4_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 142
-        width: 492
-        height: 320
+        x: 20
+        y: 145
+        width: 484
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b3bb9f99668a9800800000000000000
-      internalID: 619955686924334006
+      spriteID: dba20b70b1c1d4560800000000000000
+      internalID: 7299521473456122557
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      barbedwire1_0: 619955686924334006
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

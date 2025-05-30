@@ -8,14 +8,14 @@ namespace _Scripts.Abstracts.Classes
 {
     public abstract class BasePlatform : MonoBehaviour
     {
-        [SerializeField] private float minRpm;
-        [SerializeField] private float maxRpm;
+        [SerializeField] private float minRpm = -50;
+        [SerializeField] private float maxRpm = 50;
         
-        [SerializeField] private float minAcceleration;
-        [SerializeField] private float maxAcceleration;
-        [SerializeField] private float accelerationTime;
+        [SerializeField] private float minAcceleration = -20;
+        [SerializeField] private float maxAcceleration = 20;
+        [SerializeField] private float accelerationTime = 1f;
 
-        [SerializeField] private float randomizeTime;
+        [SerializeField] private float randomizeTime = 7.5f;
 
         private float3 _currentRpmVec = float3.zero;
         private float _currentRpm;
