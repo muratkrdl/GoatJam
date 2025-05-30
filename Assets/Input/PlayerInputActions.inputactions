@@ -6,7 +6,7 @@
             "id": "ecf1d796-c866-4960-bd76-30d76c2e8f9c",
             "actions": [
                 {
-                    "name": "Release",
+                    "name": "Holding",
                     "type": "Button",
                     "id": "230b6fdd-7387-4149-a958-e892af6fda56",
                     "expectedControlType": "",
@@ -41,7 +41,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Release",
+                    "action": "Holding",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -52,7 +52,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Release",
+                    "action": "Holding",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

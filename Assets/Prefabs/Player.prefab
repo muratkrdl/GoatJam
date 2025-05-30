@@ -29,7 +29,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3970505395391957218}
   - {fileID: 4017731059738036834}
   - {fileID: 3499705625770454444}
   - {fileID: 3942018088592460704}
@@ -81,8 +80,6 @@ GameObject:
   - component: {fileID: 3970505395391957218}
   - component: {fileID: 960033503784138133}
   - component: {fileID: 8860710608909884926}
-  - component: {fileID: 6132465111083424237}
-  - component: {fileID: 4116776067896108274}
   m_Layer: 11
   m_Name: Head
   m_TagString: Untagged
@@ -99,11 +96,11 @@ Transform:
   m_GameObject: {fileID: 642431296509491652}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.92, z: 0}
+  m_LocalPosition: {x: 0, y: 1.6700001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7652471434155772262}
+  m_Father: {fileID: 4017731059738036834}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &960033503784138133
 SpriteRenderer:
@@ -237,59 +234,6 @@ PolygonCollider2D:
       - {x: 0.675, y: -0.63}
       - {x: 0.675, y: -0.28}
   m_UseDelaunayMesh: 0
---- !u!50 &6132465111083424237
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 642431296509491652}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!233 &4116776067896108274
-HingeJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 642431296509491652}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 6787172365754904521}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_BreakAction: 3
-  m_AutoConfigureConnectedAnchor: 0
-  m_Anchor: {x: 0, y: -0.53000003}
-  m_ConnectedAnchor: {x: 0, y: 1.1400001}
-  m_UseConnectedAnchor: 1
-  m_UseMotor: 0
-  m_Motor:
-    m_MotorSpeed: 0
-    m_MaximumMotorForce: 10000
-  m_UseLimits: 1
-  m_AngleLimits:
-    m_LowerAngle: 0
-    m_UpperAngle: 0
 --- !u!1 &1610289601390134639
 GameObject:
   m_ObjectHideFlags: 0
@@ -336,6 +280,7 @@ GameObject:
   - component: {fileID: 4784019574403639585}
   - component: {fileID: 1040198641086120469}
   - component: {fileID: 4742221929775987073}
+  - component: {fileID: 4630912176579769359}
   m_Layer: 12
   m_Name: Lhand
   m_TagString: Untagged
@@ -559,6 +504,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c137113b6dd84515bc3a4113dba1510f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!231 &4630912176579769359
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126246824863366556}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 7261653316835244856}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_BreakAction: 3
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: -0.09, y: 0}
+  m_ConnectedAnchor: {x: -0.00000015048961, y: -0.00000006929269}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.3174964
+  m_DampingRatio: 0
+  m_Frequency: 1
 --- !u!1 &2916674460692298475
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,6 +559,7 @@ Transform:
   m_Children:
   - {fileID: 7980239660677971657}
   - {fileID: 2897034928725383070}
+  - {fileID: 3970505395391957218}
   m_Father: {fileID: 7652471434155772262}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5971809486213814851
@@ -748,7 +715,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_AngularDamping: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
