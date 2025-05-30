@@ -1,3 +1,4 @@
+using System;
 using _Scripts.Events;
 using _Scripts.Extensions;
 using UnityEngine.InputSystem;
@@ -14,16 +15,11 @@ namespace _Scripts.Managers
             _input.Enable();
 
             _input.Player.Release.started += OnRelease;
-            
-            
-            //_input.Player.Hand.started += ;
-            //_input.Player.Rotate.started += ;
-            //_input.Player.Rotate.canceled += ;
         }
 
         private void OnRelease(InputAction.CallbackContext obj)
         {
-            PlayerInputEvents.Instance.onRelease?.Invoke();
+            PlayerInputEvents.Instance.onReleasePlayer.Invoke();
         }
         
     }

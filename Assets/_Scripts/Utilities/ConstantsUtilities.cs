@@ -32,8 +32,10 @@ namespace Runtime.Utilities
         
 #region Tags
 
-        public const string Enemy = "Enemy";
         public const string Player = "Player";
+        public const string Obstacles = "Obstacles";
+        public const string Ground = "Ground";
+        public const string Hand = "Hand";
 
 #endregion
             
