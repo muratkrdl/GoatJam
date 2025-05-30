@@ -83,16 +83,7 @@ public class UIManager : MonoBehaviour
         ShowMainMenu();
 
         // Credits text'i ayarla
-        if (creditsText != null)
-        {
-            creditsText.text = "2D Rage Game\n\n" +
-                              "Developed by: Your Name\n" +
-                              "Art: Artist Name\n" +
-                              "Music: Musician Name\n\n" +
-                              "Special Thanks:\n" +
-                              "Unity Technologies\n" +
-                              "Our Amazing Players!";
-        }
+        //
     }
 
     void Update()
