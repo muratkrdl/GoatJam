@@ -8,6 +8,8 @@ namespace _Scripts.Abstracts.Classes
 {
     public abstract class BasePlatform : MonoBehaviour
     {
+        [SerializeField] protected Transform visualObjectTransform;
+        
         [SerializeField] private float minRpm = -50;
         [SerializeField] private float maxRpm = 50;
         
@@ -30,7 +32,7 @@ namespace _Scripts.Abstracts.Classes
 
         private void Update()
         {
-            transform.Rotate(_currentRpmVec * Time.fixedDeltaTime);
+            visualObjectTransform.Rotate(_currentRpmVec * Time.fixedDeltaTime);
         }
         
         private void Randomize()
