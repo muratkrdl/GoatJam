@@ -21,7 +21,7 @@ namespace _Scripts.Abstracts.Classes
         private float _currentRpm;
         private float _currentAcceleration;
         
-        private void Start()
+        protected virtual void Start()
         {
             Randomize();
             IncreaseRpmByAcceleration().Forget();
