@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class BasicRotatingPlatform : MonoBehaviour
+public class BasicRotatingPlatform : MonoBehaviour, IGrabbable
 {
     [Header("Rotation Settings")]
     [SerializeField] private float minRotationSpeed = 30f;
@@ -38,5 +38,16 @@ public class BasicRotatingPlatform : MonoBehaviour
     public bool CanPlayerGrab()
     {
         return canPlayerGrab;
+    }
+
+    // IGrabbable implementation
+    public bool CanGrab()
+    {
+        return canPlayerGrab;
+    }
+
+    public float GetRotationSpeed()
+    {
+        return currentRotationSpeed;
     }
 }
