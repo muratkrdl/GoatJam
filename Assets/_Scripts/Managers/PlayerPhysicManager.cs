@@ -25,7 +25,7 @@ namespace _Scripts.Managers
         private void OnEnable()
         {
             PhysicEvents.Instance.onCollisionSlime += OnCollisionSlime;
-            PlayerInputEvents.Instance.onHoldingCanceled += OnReleasePlayer;
+            PlayerInputEvents.Instance.onRelease += OnReleasePlayer;
             PhysicEvents.Instance.onHandCollisionEnter += OnHandCollisionEnter;
         }
         
@@ -70,7 +70,7 @@ namespace _Scripts.Managers
         private void OnDisable()
         {
             PhysicEvents.Instance.onCollisionSlime -= OnCollisionSlime;
-            PlayerInputEvents.Instance.onHolding -= OnReleasePlayer;
+            PlayerInputEvents.Instance.onRelease -= OnReleasePlayer;
             PhysicEvents.Instance.onHandCollisionEnter -= OnHandCollisionEnter;
         }
 

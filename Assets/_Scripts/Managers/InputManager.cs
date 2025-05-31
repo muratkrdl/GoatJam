@@ -14,18 +14,12 @@ namespace _Scripts.Managers
             _input = new PlayerInputActions();
             _input.Enable();
 
-            _input.Player.Holding.started += OnHolding;
-            _input.Player.Holding.canceled += OnHoldingCanceled;
+            _input.Player.Holding.started += OnRelease;
         }
 
-        private void OnHolding(InputAction.CallbackContext obj)
+        private void OnRelease(InputAction.CallbackContext obj)
         {
-            PlayerInputEvents.Instance.onHolding.Invoke();
-        }
-        
-        private void OnHoldingCanceled(InputAction.CallbackContext obj)
-        {
-            PlayerInputEvents.Instance.onHoldingCanceled.Invoke();
+            PlayerInputEvents.Instance.onRelease.Invoke();
         }
         
     }
