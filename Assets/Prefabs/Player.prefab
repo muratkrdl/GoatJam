@@ -47,6 +47,7 @@ GameObject:
   - component: {fileID: 7995600787396611133}
   - component: {fileID: 6943790591986780320}
   - component: {fileID: 5780435143891952746}
+  - component: {fileID: 6232039199529034598}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
@@ -107,6 +108,21 @@ MonoBehaviour:
   headSprites:
   - {fileID: 8271752327389208957, guid: c6ff98a8dd079344dbc1b4d0beb483c9, type: 3}
   - {fileID: -5637409519811270807, guid: 039db8e468d302a428265d17639c943e, type: 3}
+--- !u!114 &6232039199529034598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560533249251641777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b98ac0ba6ce47989980c81758831386, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 6787172365754904521}
+  slimeJumpForce: 10
+  firstJumpForce: 10
 --- !u!1 &642431296509491652
 GameObject:
   m_ObjectHideFlags: 0
@@ -288,8 +304,8 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_AngularDamping: 0
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -300,7 +316,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Constraints: 0
 --- !u!114 &6506928955701991821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -590,7 +606,7 @@ SpringJoint2D:
   m_Anchor: {x: -0.09, y: 0}
   m_ConnectedAnchor: {x: -0.00000015048961, y: -0.00000006929269}
   m_AutoConfigureDistance: 1
-  m_Distance: 1.3174968
+  m_Distance: 1.3174964
   m_DampingRatio: 0
   m_Frequency: 1
 --- !u!114 &4742221929775987073
@@ -1069,7 +1085,7 @@ SpringJoint2D:
   m_Anchor: {x: 0.1, y: 0}
   m_ConnectedAnchor: {x: 0.21203578, y: 0.12186265}
   m_AutoConfigureDistance: 1
-  m_Distance: 1.5508307
+  m_Distance: 1.5508308
   m_DampingRatio: 0
   m_Frequency: 4
 --- !u!114 &2140677717226697154
@@ -1515,8 +1531,8 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_AngularDamping: 0
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1527,7 +1543,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Constraints: 0
 --- !u!114 &1029767120217999693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1724,8 +1740,8 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_AngularDamping: 0
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1736,7 +1752,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Constraints: 0
 --- !u!114 &9129589784904311427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1995,7 +2011,7 @@ SpringJoint2D:
   m_Anchor: {x: 0.0000003960028, y: 0.00000009349514}
   m_ConnectedAnchor: {x: 0.09621436, y: 0.021277519}
   m_AutoConfigureDistance: 1
-  m_Distance: 1.2638326
+  m_Distance: 1.2638327
   m_DampingRatio: 0
   m_Frequency: 1
 --- !u!114 &2511970618951589902
