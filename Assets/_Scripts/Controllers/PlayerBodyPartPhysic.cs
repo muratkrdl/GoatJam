@@ -14,6 +14,40 @@ namespace _Scripts.Controllers
             {
                 // TODO : Player Dead
                 Debug.Log("Spike");
+                SoundManager.Instance?.PlayDeathbySpike();
+                // Death panel'i göster ve oyunu durdur
+                UIManager uiManager = FindFirstObjectByType<UIManager>();
+                if (uiManager != null)
+                {
+                    uiManager.ShowDeathPanel();
+                }
+            }
+            if (other.CompareTag("LostInSpace"))
+            {
+                // TODO : Player Dead
+                Debug.Log("Lost in Space");
+                SoundManager.Instance?.PlayDeathbylostinspace();
+                // Death panel'i göster ve oyunu durdur
+                UIManager uiManager = FindFirstObjectByType<UIManager>();
+                if (uiManager != null)
+                {
+                    uiManager.ShowDeathPanel();
+                }
+            }
+            if (other.CompareTag("Elma")) // Elma tag'i eklendi
+            {
+                // TODO : Player Win
+                Debug.Log("Apple collected - Victory!");
+                SoundManager.Instance?.PlayVictory();
+                // Win panel'i göster ve oyunu durdur
+                UIManager uiManager = FindFirstObjectByType<UIManager>();
+                if (uiManager != null)
+                {
+                    uiManager.ShowWinPanel();
+                }
+
+                // Elmayý yok et (opsiyonel)
+                Destroy(other.gameObject);
             }
         }
 
@@ -24,6 +58,5 @@ namespace _Scripts.Controllers
                 PhysicEvents.Instance.onCollisionSlime?.Invoke(slime);
             }
         }
-        
     }
 }

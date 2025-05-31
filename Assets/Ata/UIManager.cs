@@ -32,6 +32,20 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Button mainMenuButton;
     [SerializeField] private Button pauseQuitButton;
 
+    [Header("Game Over UI")]
+    [SerializeField] private GameObject deathPanel;
+    [SerializeField] private Button restartButton;
+    [SerializeField] private Button deathMainMenuButton;
+
+    [Header("Victory UI")]
+    [SerializeField] private GameObject winPanel;
+    [SerializeField] private Button nextLevelButton;
+    [SerializeField] private Button winMainMenuButton;
+    [SerializeField] private Button winRestartButton;
+
+    // Start() metodunda bu butonlarý da baðlayýn:
+
+
     private bool isPaused = false;
 
     void Start()
@@ -79,6 +93,18 @@ public class UIManager : MonoBehaviour
         if (pauseQuitButton != null)
             pauseQuitButton.onClick.AddListener(OnQuitClicked);
 
+        if (restartButton != null)
+            restartButton.onClick.AddListener(OnRestartClicked);
+
+        if (deathMainMenuButton != null)
+            deathMainMenuButton.onClick.AddListener(OnMainMenuClicked);
+
+
+        if (winMainMenuButton != null)
+            winMainMenuButton.onClick.AddListener(OnMainMenuClicked);
+
+        if (winRestartButton != null)
+            winRestartButton.onClick.AddListener(OnRestartClicked);
         // Ýlk durumlarý ayarla
         ShowMainMenu();
 
@@ -218,6 +244,27 @@ public class UIManager : MonoBehaviour
         }
     }
 
+
+
+    public void ShowWinPanel()
+    {
+        if (winPanel != null)
+            winPanel.SetActive(true);
+
+        // Oyunu durdur
+        Time.timeScale = 0f;
+        isPaused = true;
+    }
+
+    public void HideWinPanel()
+    {
+        if (winPanel != null)
+            winPanel.SetActive(false);
+
+        // Oyunu devam ettir
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
     // Oyun Duraklatma
     public void PauseGame()
     {
@@ -230,6 +277,32 @@ public class UIManager : MonoBehaviour
         SoundManager.Instance?.PlayButtonClick();
     }
 
+    public void ShowDeathPanel()
+    {
+        if (deathPanel != null)
+            deathPanel.SetActive(true);
+
+        // Oyunu durdur
+        Time.timeScale = 0f;
+        isPaused = true;
+    }
+
+    public void HideDeathPanel()
+    {
+        if (deathPanel != null)
+            deathPanel.SetActive(false);
+
+        // Oyunu devam ettir
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+
+    void OnRestartClicked()
+    {
+        SoundManager.Instance?.PlayButtonClick();
+        Time.timeScale = 1f;
+        SceneController.Instance.ReloadCurrentScene();
+    }
     public void ResumeGame()
     {
         isPaused = false;

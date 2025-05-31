@@ -43,7 +43,8 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private AudioClip bounceSound;
     [SerializeField] private AudioClip attachSound;
     [SerializeField] private AudioClip detachSound;
-    [SerializeField] private AudioClip deathSound;
+    [SerializeField] private AudioClip deathSoundbylostinspace;
+    [SerializeField] private AudioClip deathSoundbySpike;
     [SerializeField] private AudioClip victorySound;
 
     private List<AudioSource> sfxSourcePool = new List<AudioSource>();
@@ -193,9 +194,13 @@ public class SoundManager : MonoBehaviour
         PlaySFX(detachSound);
     }
 
-    public void PlayDeath()
+    public void PlayDeathbySpike()
     {
-        PlaySFX(deathSound);
+        PlaySFX(deathSoundbySpike);
+    }
+    public void PlayDeathbylostinspace()
+    {
+        PlaySFX(deathSoundbylostinspace);
     }
 
     public void PlayVictory()
