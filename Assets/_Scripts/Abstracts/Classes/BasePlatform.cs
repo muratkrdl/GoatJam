@@ -67,5 +67,7 @@ namespace _Scripts.Abstracts.Classes
             _currentRpmVec.z = _currentRpm;
         }
         
+        public float GetCurrentRpm() => _currentRpm;
+        
     }
 }

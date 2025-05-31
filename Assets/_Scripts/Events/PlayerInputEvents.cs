@@ -7,9 +7,5 @@ namespace _Scripts.Events
     {
         public UnityAction onHolding;
         public UnityAction onHoldingCanceled;
-        
-        // public UnityAction onHand;
-        // public UnityAction onRotateStarted;
-        // public UnityAction onRotateCanceled;
     }
 }

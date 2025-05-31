@@ -123,6 +123,8 @@ MonoBehaviour:
   body: {fileID: 6787172365754904521}
   slimeJumpForce: 10
   firstJumpForce: 10
+  releaseJumpForce: 10
+  divideReleaseForce: 5
 --- !u!1 &642431296509491652
 GameObject:
   m_ObjectHideFlags: 0
