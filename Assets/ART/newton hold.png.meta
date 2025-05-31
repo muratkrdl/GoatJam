@@ -130,12 +130,12 @@ TextureImporter:
       name: newton hold_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 445
-        width: 55
-        height: 63
+        x: 167
+        y: 332
+        width: 135
+        height: 146
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -152,12 +152,12 @@ TextureImporter:
       name: newton hold_1
       rect:
         serializedVersion: 2
-        x: 78
-        y: 238
-        width: 58
-        height: 224
+        x: 55
+        y: 277
+        width: 37
+        height: 41
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -171,37 +171,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: newton hold_Head
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 329
-        width: 137
-        height: 150
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9676e36f8e5e3c1b0800000000000000
-      internalID: -5637409519811270807
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: newton hold_3
       rect:
         serializedVersion: 2
-        x: 328
-        y: 245
-        width: 80
-        height: 224
+        x: 44
+        y: 154
+        width: 53
+        height: 114
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -218,12 +196,12 @@ TextureImporter:
       name: newton hold_4
       rect:
         serializedVersion: 2
-        x: 445
-        y: 444
-        width: 55
-        height: 63
+        x: 384
+        y: 131
+        width: 78
+        height: 102
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -240,12 +218,12 @@ TextureImporter:
       name: newton hold_5
       rect:
         serializedVersion: 2
-        x: 5
-        y: 2
-        width: 93
-        height: 228
+        x: 125
+        y: 38
+        width: 38
+        height: 108
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -262,12 +240,12 @@ TextureImporter:
       name: newton hold_6
       rect:
         serializedVersion: 2
-        x: 161
-        y: 96
-        width: 170
-        height: 230
+        x: 331
+        y: 15
+        width: 40
+        height: 120
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -281,67 +259,23 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: newton hold_7
+      name: newton hold_2
       rect:
         serializedVersion: 2
-        x: 413
-        y: 5
-        width: 93
-        height: 228
+        x: 419
+        y: 246
+        width: 37
+        height: 41
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6904ceae8fb565130800000000000000
-      internalID: 3555130080506953878
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: newton hold_8
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 16
-        width: 39
-        height: 43
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 16b0447653d32ee30800000000000000
-      internalID: 4531251474663213921
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: newton hold_9
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 12
-        width: 39
-        height: 43
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3d1f3c787557c0900800000000000000
-      internalID: 652025064862249427
+      spriteID: 184c3a94f46b4e44593e71e66d6374df
+      internalID: -1398249771
       vertices: []
       indices: 
       edges: []
@@ -362,14 +296,11 @@ TextureImporter:
     nameFileIdTable:
       newton hold_0: 3673257466914077222
       newton hold_1: 6375198451830595868
+      newton hold_2: -1398249771
       newton hold_3: 3928061756716936180
       newton hold_4: -773268547344295588
       newton hold_5: 7979721450573828742
       newton hold_6: 1742264083345275702
-      newton hold_7: 3555130080506953878
-      newton hold_8: 4531251474663213921
-      newton hold_9: 652025064862249427
-      newton hold_Head: -5637409519811270807
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
