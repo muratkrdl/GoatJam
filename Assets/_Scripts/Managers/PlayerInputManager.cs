@@ -8,6 +8,7 @@ namespace _Scripts.Managers
         private void OnEnable()
         {
             PlayerInputEvents.Instance.onRelease += OnReleasePlayer;
+            PlayerInputEvents.Instance. += OnReleasePlayer;
         }
 
         private void OnReleasePlayer()

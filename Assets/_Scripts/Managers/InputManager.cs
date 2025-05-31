@@ -15,6 +15,18 @@ namespace _Scripts.Managers
             _input.Enable();
 
             _input.Player.Holding.started += OnRelease;
+            _input.Player.Rotate.started += RotateStarted;
+            _input.Player.Rotate.canceled += RotateCanceled;
+        }
+
+        private void RotateStarted(InputAction.CallbackContext obj)
+        {
+            
+        }
+
+        private void RotateCanceled(InputAction.CallbackContext obj)
+        {
+            
         }
 
         private void OnRelease(InputAction.CallbackContext obj)
