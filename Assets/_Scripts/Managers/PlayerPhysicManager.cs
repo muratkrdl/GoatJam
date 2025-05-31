@@ -36,10 +36,11 @@ namespace _Scripts.Managers
             
             BasePlatform platform = _currentHoldingPlatform.GetComponentInParent<BasePlatform>();
 
-            // Vector2 direction = (_currentHoldingPlatform.transform.position - body.transform.position);
+            // Vector2 direction = (_currentHoldingPlatform.transform.position - center.position).normalized;
+
+            int complier = platform.GetCurrentRpm() < 0 ? 1 : -1;
             
-            
-            float angleInRadians = _currentHoldingPlatform.eulerAngles.z * Mathf.Deg2Rad;
+            float angleInRadians = platform.GetCurrentRpm() * Mathf.Deg2Rad;
             Vector2 attachedPos = new Vector2
             (
                  center.position.x + Mathf.Cos(angleInRadians) * 2,
@@ -63,7 +64,7 @@ namespace _Scripts.Managers
 
         private void OnCollisionSlime(SlimeObject slimeObj)
         {
-            ApplyForceBody(slimeObj.GetReflectDirection() * slimeJumpForce);
+            ApplyForceBody(slimeObj.GetReflectDirection().normalized * slimeJumpForce);
         }
 
         private void OnDisable()

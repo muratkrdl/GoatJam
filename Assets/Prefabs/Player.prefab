@@ -70,7 +70,6 @@ Transform:
   m_Children:
   - {fileID: 7652471434155772262}
   - {fileID: 4432980248336175047}
-  - {fileID: 2035172465377686154}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6943790591986780320
@@ -125,7 +124,7 @@ MonoBehaviour:
   body: {fileID: 6787172365754904521}
   slimeJumpForce: 10
   firstJumpForce: 10
-  releaseJumpForce: 10
+  releaseJumpForce: 1
   divideReleaseForce: 5
 --- !u!1 &642431296509491652
 GameObject:
@@ -333,37 +332,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d233acf3c974a0e91b89554921716aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1610289601390134639
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2035172465377686154}
-  m_Layer: 8
-  m_Name: Physics
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2035172465377686154
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1610289601390134639}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7995600787396611133}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2126246824863366556
 GameObject:
   m_ObjectHideFlags: 0
@@ -1075,7 +1043,7 @@ SpringJoint2D:
   m_Anchor: {x: 0.1, y: 0}
   m_ConnectedAnchor: {x: 0.21203578, y: 0.12186265}
   m_AutoConfigureDistance: 1
-  m_Distance: 1.5508308
+  m_Distance: 1.5508307
   m_DampingRatio: 0
   m_Frequency: 4
 --- !u!114 &2140677717226697154
@@ -1325,7 +1293,7 @@ SpringJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: -0.27584445, y: 0.10229075}
   m_AutoConfigureDistance: 1
-  m_Distance: 1.5565405
+  m_Distance: 1.5565403
   m_DampingRatio: 0
   m_Frequency: 4
 --- !u!114 &3701568784189503734
