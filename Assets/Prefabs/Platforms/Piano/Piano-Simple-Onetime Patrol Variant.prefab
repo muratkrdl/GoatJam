@@ -64,13 +64,17 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.050873637
       objectReference: {fileID: 0}
+    - target: {fileID: 4572354623699193722, guid: 5a902504a7eb53448bde93eb82ba7d55, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6386640480860065314, guid: 5a902504a7eb53448bde93eb82ba7d55, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -7895058522316621897, guid: 4969f2c1059761b47b2454ed0700778a, type: 3}
     - target: {fileID: 6688398544881423323, guid: 5a902504a7eb53448bde93eb82ba7d55, type: 3}
       propertyPath: m_Name
-      value: Piano-Simple-OnetimePatrol7 Variant
+      value: Piano-Simple-Onetime Patrol Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
