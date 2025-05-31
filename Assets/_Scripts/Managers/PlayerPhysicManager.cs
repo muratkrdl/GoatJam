@@ -13,6 +13,7 @@ namespace _Scripts.Managers
         [SerializeField] private Transform center;
         
         [SerializeField] private Rigidbody2D body;
+        [SerializeField] private Transform pumpPivot;
         [SerializeField] private float slimeJumpForce;
         
         [SerializeField] private float firstJumpForce;
@@ -33,9 +34,16 @@ namespace _Scripts.Managers
             // TODO : Calculate Force Direction
             if (!_currentHoldingPlatform) return;
             
-            Vector2 direction = (_currentHoldingPlatform.transform.position - center.position).normalized;
-            direction.x *= -1;
+            BasePlatform platform = _currentHoldingPlatform.GetComponent<BasePlatform>();
+            
+            Vector2 direction = (pumpPivot.position - _currentHoldingPlatform.position).normalized;
 
+            // float yMultiplier = pumpPivot.position.y < _currentHoldingPlatform.position.y ? 1 : -1;
+            // float xMultiplier = pumpPivot.position.x < _currentHoldingPlatform.position.x ? 1 : -1;
+            // 
+            // direction.x *= xMultiplier;
+            // direction.y *= yMultiplier;
+            
             Vector2 realDirection = direction * releaseJumpForce;
             
             ApplyForceBody(realDirection);
