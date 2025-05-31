@@ -10,6 +10,8 @@ namespace _Scripts.Managers
 {
     public class PlayerPhysicManager : MonoBehaviour
     {
+        [SerializeField] private Transform center;
+        
         [SerializeField] private Rigidbody2D body;
         [SerializeField] private float slimeJumpForce;
         
@@ -34,9 +36,18 @@ namespace _Scripts.Managers
             
             BasePlatform platform = _currentHoldingPlatform.GetComponentInParent<BasePlatform>();
 
-            Vector2 direction = (_currentHoldingPlatform.transform.position - body.transform.position).normalized;
+            // Vector2 direction = (_currentHoldingPlatform.transform.position - body.transform.position);
+            
+            
+            float angleInRadians = _currentHoldingPlatform.eulerAngles.z * Mathf.Deg2Rad;
+            Vector2 attachedPos = new Vector2
+            (
+                 center.position.x + Mathf.Cos(angleInRadians) * 2,
+                 center.position.y + Mathf.Sin(angleInRadians) * 2
+            );
+            
 
-            Vector2 realDirection = direction * (platform.GetCurrentRpm() / divideReleaseForce);
+            Vector2 realDirection = attachedPos * (platform.GetCurrentRpm() / divideReleaseForce);
             
             ApplyForceBody(realDirection);
             
