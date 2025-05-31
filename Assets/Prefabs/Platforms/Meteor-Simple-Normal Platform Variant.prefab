@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2554153992804479181, guid: 5994b7732b1bbb343b2bd99bed233858, type: 3}
       propertyPath: m_Name
-      value: Meteor-simple-Normal Platform Variant
+      value: Meteor-Simple-Normal Platform Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6136347644380013546, guid: 5994b7732b1bbb343b2bd99bed233858, type: 3}
       propertyPath: m_Sprite
@@ -100,7 +100,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
