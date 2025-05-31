@@ -307,7 +307,7 @@ MonoBehaviour:
   - {fileID: 626269741, guid: c6ff98a8dd079344dbc1b4d0beb483c9, type: 3}
   headSprites:
   - {fileID: 8271752327389208957, guid: c6ff98a8dd079344dbc1b4d0beb483c9, type: 3}
-  - {fileID: 8271752327389208957, guid: c6ff98a8dd079344dbc1b4d0beb483c9, type: 3}
+  - {fileID: -5637409519811270807, guid: 039db8e468d302a428265d17639c943e, type: 3}
 --- !u!1001 &2082233348
 PrefabInstance:
   m_ObjectHideFlags: 0
