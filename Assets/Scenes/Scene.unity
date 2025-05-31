@@ -351,6 +351,7 @@ GameObject:
   - component: {fileID: 1479191377}
   - component: {fileID: 1479191379}
   - component: {fileID: 1479191380}
+  - component: {fileID: 1479191381}
   m_Layer: 0
   m_Name: CinemachineCamera
   m_TagString: Untagged
@@ -383,7 +384,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 60
-    OrthographicSize: 10
+    OrthographicSize: 9.45
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -410,7 +411,7 @@ Transform:
   m_GameObject: {fileID: 1479191376}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -6.75, z: -10}
+  m_LocalPosition: {x: 0, y: -14.95, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -448,6 +449,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xClampValue: 0
+--- !u!114 &1479191381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479191376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2325b7e830ab6b94f9c3d1bfa358d817, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  virtualCamera: {fileID: 1479191377}
+  playerTransform: {fileID: 7185349408880159891}
+  minLensSize: 5
+  maxLensSize: 15
+  minHeight: 0
+  maxHeight: 360
+  sensitivity: 1
+  useSmoothing: 1
+  smoothSpeed: 2
+  showDebugInfo: 0
 --- !u!4 &1597430327 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4017731059738036834, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
@@ -595,7 +618,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 9.45
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -620,7 +643,7 @@ Transform:
   m_GameObject: {fileID: 2084709741}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -6.75, z: -10}
+  m_LocalPosition: {x: 0, y: -14.95, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -826,7 +849,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7995600787396611133, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6
+      value: -14.2
       objectReference: {fileID: 0}
     - target: {fileID: 7995600787396611133, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
       propertyPath: m_LocalPosition.z
@@ -865,6 +888,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
+--- !u!4 &7185349408880159891 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7995600787396611133, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
+  m_PrefabInstance: {fileID: 7185349408880159890}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
