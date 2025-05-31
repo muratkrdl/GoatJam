@@ -1,5 +1,8 @@
-using Unity.Cinemachine;
+
 using UnityEngine;
+using Unity.Cinemachine;
+
+
 
 namespace _Scripts.Extensions
 {
