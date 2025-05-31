@@ -358,8 +358,8 @@ GameObject:
   - component: {fileID: 5950325005067338787}
   - component: {fileID: 4784019574403639585}
   - component: {fileID: 1040198641086120469}
-  - component: {fileID: 4742221929775987073}
   - component: {fileID: 4630912176579769359}
+  - component: {fileID: 4742221929775987073}
   - component: {fileID: 4412522916793914989}
   m_Layer: 12
   m_Name: Lhand
@@ -512,7 +512,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_AngularDamping: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -572,18 +572,6 @@ SpringJoint2D:
   m_Distance: 0.7
   m_DampingRatio: 0
   m_Frequency: 5
---- !u!114 &4742221929775987073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2126246824863366556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c137113b6dd84515bc3a4113dba1510f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!231 &4630912176579769359
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -605,6 +593,19 @@ SpringJoint2D:
   m_Distance: 1.3174968
   m_DampingRatio: 0
   m_Frequency: 1
+--- !u!114 &4742221929775987073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126246824863366556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c137113b6dd84515bc3a4113dba1510f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handSpring: {fileID: 1040198641086120469}
 --- !u!114 &4412522916793914989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1011,7 +1012,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_AngularDamping: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -1048,8 +1049,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: -90
-    m_UpperAngle: 0
+    m_LowerAngle: 30
+    m_UpperAngle: -30
 --- !u!231 &140836905285441709
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -1261,7 +1262,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_AngularDamping: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -1298,8 +1299,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: 0
-    m_UpperAngle: 90
+    m_LowerAngle: 30
+    m_UpperAngle: -30
 --- !u!231 &7040083529864644638
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -1762,6 +1763,7 @@ GameObject:
   - component: {fileID: 1494007413246982638}
   - component: {fileID: 8620080643913593383}
   - component: {fileID: 7025472333211190677}
+  - component: {fileID: 8578969424184031101}
   - component: {fileID: 2511970618951589902}
   - component: {fileID: 2303514339844759931}
   m_Layer: 12
@@ -1915,7 +1917,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_AngularDamping: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -1975,6 +1977,27 @@ SpringJoint2D:
   m_Distance: 0.7
   m_DampingRatio: 0
   m_Frequency: 5
+--- !u!231 &8578969424184031101
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8573339906195247761}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 3314408551418594460}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_BreakAction: 3
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0.0000003960028, y: 0.00000009349514}
+  m_ConnectedAnchor: {x: 0.09621436, y: 0.021277519}
+  m_AutoConfigureDistance: 1
+  m_Distance: 1.2638326
+  m_DampingRatio: 0
+  m_Frequency: 1
 --- !u!114 &2511970618951589902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1987,6 +2010,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c137113b6dd84515bc3a4113dba1510f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  handSpring: {fileID: 7025472333211190677}
 --- !u!114 &2303514339844759931
 MonoBehaviour:
   m_ObjectHideFlags: 0

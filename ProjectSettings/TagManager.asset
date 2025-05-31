@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Obstacles
   - Spike
+  - Slime
   layers:
   - Default
   - TransparentFX

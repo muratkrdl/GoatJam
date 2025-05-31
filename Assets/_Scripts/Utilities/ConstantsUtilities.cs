@@ -35,6 +35,7 @@ namespace Runtime.Utilities
         public const string Player = "Player";
         public const string Obstacles = "Obstacles";
         public const string Spike = "Spike";
+        public const string Slime = "Slime";
         public const string Ground = "Ground";
         public const string Hand = "Hand";
 

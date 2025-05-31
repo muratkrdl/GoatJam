@@ -10,8 +10,9 @@ namespace _Scripts.Controllers
 {
     public class HandController : MonoBehaviour
     {
+        [SerializeField] private SpringJoint2D handSpring;
+        
         private PlayerInputManager _playerInputManager;
-        private SpringJoint2D _handSpring;
         private PolygonCollider2D _handCollider;
         private Rigidbody2D _rigidbody;
         private Transform _initialParent;
@@ -22,7 +23,6 @@ namespace _Scripts.Controllers
         private void Awake()
         {
             _playerInputManager = GetComponentInParent<PlayerInputManager>();
-            _handSpring = GetComponent<SpringJoint2D>();
             _handCollider = GetComponent<PolygonCollider2D>();
             _rigidbody = GetComponent<Rigidbody2D>();
             _initialParent =  transform.parent;
@@ -63,13 +63,13 @@ namespace _Scripts.Controllers
 
         private void OnTriggerEnterFunc(Collision2D other)
         {
-            _handSpring.enabled = true;
+            handSpring.enabled = true;
             _rigidbody.bodyType = RigidbodyType2D.Kinematic;
             _currentHandedObstacle = other.transform;
             _connectedBody = other.gameObject.GetComponent<Rigidbody2D>();
             transform.SetParent(_currentHandedObstacle);
-            _handSpring.connectedBody = _connectedBody;
-            _handSpring.connectedAnchor = _currentHandedObstacle.position;
+            handSpring.connectedBody = _connectedBody;
+            handSpring.connectedAnchor = _currentHandedObstacle.position;
         }
         
         private void OnTriggerExitFunc()
@@ -79,13 +79,13 @@ namespace _Scripts.Controllers
             Collider2D otherCollider = _currentHandedObstacle.GetComponent<Collider2D>();
             IgnoreCollider(otherCollider).Forget();
             
-            _handSpring.enabled = false;
+            handSpring.enabled = false;
             transform.SetParent(_initialParent);
             _rigidbody.bodyType = RigidbodyType2D.Dynamic;
             _currentHandedObstacle = null;
             _connectedBody = null;
-            _handSpring.connectedBody = null;
-            _handSpring.connectedAnchor = Vector2.zero;
+            handSpring.connectedBody = null;
+            handSpring.connectedAnchor = Vector2.zero;
         }
 
         private async UniTaskVoid IgnoreCollider(Collider2D otherCollider)
