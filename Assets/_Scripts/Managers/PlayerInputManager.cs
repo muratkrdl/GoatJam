@@ -7,11 +7,16 @@ namespace _Scripts.Managers
     {
         private void OnEnable()
         {
-            PlayerInputEvents.Instance.onRelease += OnReleasePlayer;
-            PlayerInputEvents.Instance. += OnReleasePlayer;
+            PlayerInputEvents.Instance.onRotateStarted += OnRotateStarted;
+            PlayerInputEvents.Instance.onRotateCanceled += OnRotateCanceled;
         }
 
-        private void OnReleasePlayer()
+        private void OnRotateStarted(Vector2 arg0)
+        {
+            
+        }
+
+        private void OnRotateCanceled()
         {
             
         }

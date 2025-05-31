@@ -7,6 +7,7 @@ namespace _Scripts.Events
     public class PlayerInputEvents : MonoSingleton<PlayerInputEvents>
     {
         public UnityAction onRelease;
-        public UnityAction<Vector2> onRotate;
+        public UnityAction<Vector2> onRotateStarted;
+        public UnityAction onRotateCanceled;
     }
 }
