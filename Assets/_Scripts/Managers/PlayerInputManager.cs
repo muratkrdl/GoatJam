@@ -1,5 +1,3 @@
-using System;
-using _Scripts.Controllers;
 using _Scripts.Events;
 using UnityEngine;
 

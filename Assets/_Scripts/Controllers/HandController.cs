@@ -1,7 +1,6 @@
 using System;
 using _Scripts.Events;
 using _Scripts.Keys;
-using _Scripts.Managers;
 using Cysharp.Threading.Tasks;
 using Runtime.Utilities;
 using UnityEngine;
@@ -14,14 +13,14 @@ namespace _Scripts.Controllers
         [SerializeField] private Rigidbody2D myRigidbody;
         [SerializeField] private Transform initialParent;
         
-        private BoxCollider2D _handCollider;
+        private PolygonCollider2D _handCollider;
 
         private Transform _currentHandedObstacle;
         private Rigidbody2D _connectedBody;
 
         private void Awake()
         {
-            _handCollider = GetComponent<BoxCollider2D>();
+            _handCollider = GetComponent<PolygonCollider2D>();
         }
 
         private void OnEnable()
@@ -39,8 +38,6 @@ namespace _Scripts.Controllers
         {
             OnTriggerExitFunc();
         }
-
-        // TODO : Collision instead of trigger
 
         private void OnCollisionEnter2D(Collision2D other)
         {
