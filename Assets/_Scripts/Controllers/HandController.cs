@@ -11,36 +11,31 @@ namespace _Scripts.Controllers
     public class HandController : MonoBehaviour
     {
         [SerializeField] private SpringJoint2D handSpring;
+        [SerializeField] private Rigidbody2D myRigidbody;
+        [SerializeField] private Transform initialParent;
         
-        private PlayerInputManager _playerInputManager;
-        private PolygonCollider2D _handCollider;
-        private Rigidbody2D _rigidbody;
-        private Transform _initialParent;
+        private BoxCollider2D _handCollider;
 
         private Transform _currentHandedObstacle;
         private Rigidbody2D _connectedBody;
 
         private void Awake()
         {
-            _playerInputManager = GetComponentInParent<PlayerInputManager>();
-            _handCollider = GetComponent<PolygonCollider2D>();
-            _rigidbody = GetComponent<Rigidbody2D>();
-            _initialParent =  transform.parent;
+            _handCollider = GetComponent<BoxCollider2D>();
         }
 
         private void OnEnable()
         {
             PhysicEvents.Instance.onHandCollisionEnter += OnHandCollisionEnter;
-            PlayerInputEvents.Instance.onHoldingCanceled += OnHoldingCanceled;
+            PlayerInputEvents.Instance.onRelease += OnRelease;
         }
 
         private void OnHandCollisionEnter(OnHandCollisionEnterParams arg)
         {
-            if (arg.Hand != this) return;
             OnTriggerEnterFunc(arg.Other);
         }
 
-        private void OnHoldingCanceled()
+        private void OnRelease()
         {
             OnTriggerExitFunc();
         }
@@ -51,8 +46,6 @@ namespace _Scripts.Controllers
         {
             if (other.gameObject.CompareTag(ConstantsUtilities.Obstacles))
             {
-                if (!_playerInputManager.GetIsHolding()) return;
-                
                 PhysicEvents.Instance.onHandCollisionEnter?.Invoke(new OnHandCollisionEnterParams()
                 {
                     Hand = this,
@@ -64,10 +57,10 @@ namespace _Scripts.Controllers
         private void OnTriggerEnterFunc(Collision2D other)
         {
             handSpring.enabled = true;
-            _rigidbody.bodyType = RigidbodyType2D.Kinematic;
+            myRigidbody.bodyType = RigidbodyType2D.Kinematic;
             _currentHandedObstacle = other.transform;
             _connectedBody = other.gameObject.GetComponent<Rigidbody2D>();
-            transform.SetParent(_currentHandedObstacle);
+            myRigidbody.transform.SetParent(_currentHandedObstacle);
             handSpring.connectedBody = _connectedBody;
             handSpring.connectedAnchor = _currentHandedObstacle.position;
         }
@@ -76,12 +69,13 @@ namespace _Scripts.Controllers
         {
             // Exit from obstacle
             if (!_currentHandedObstacle) return;
+            
             Collider2D otherCollider = _currentHandedObstacle.GetComponent<Collider2D>();
             IgnoreCollider(otherCollider).Forget();
             
             handSpring.enabled = false;
-            transform.SetParent(_initialParent);
-            _rigidbody.bodyType = RigidbodyType2D.Dynamic;
+            myRigidbody.transform.SetParent(initialParent);
+            myRigidbody.bodyType = RigidbodyType2D.Dynamic;
             _currentHandedObstacle = null;
             _connectedBody = null;
             handSpring.connectedBody = null;
