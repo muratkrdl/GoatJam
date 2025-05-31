@@ -5,7 +5,8 @@ namespace _Scripts.Events
 {
     public class PlayerInputEvents : MonoSingleton<PlayerInputEvents>
     {
-        public UnityAction onReleasePlayer;
+        public UnityAction onHolding;
+        public UnityAction onHoldingCanceled;
         
         // public UnityAction onHand;
         // public UnityAction onRotateStarted;

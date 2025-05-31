@@ -92,7 +92,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
             ""id"": ""ecf1d796-c866-4960-bd76-30d76c2e8f9c"",
             ""actions"": [
                 {
-                    ""name"": ""Release"",
+                    ""name"": ""Holding"",
                     ""type"": ""Button"",
                     ""id"": ""230b6fdd-7387-4149-a958-e892af6fda56"",
                     ""expectedControlType"": """",
@@ -127,7 +127,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Release"",
+                    ""action"": ""Holding"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -138,7 +138,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Release"",
+                    ""action"": ""Holding"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -276,7 +276,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
 }");
         // Player
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
-        m_Player_Release = m_Player.FindAction("Release", throwIfNotFound: true);
+        m_Player_Holding = m_Player.FindAction("Holding", throwIfNotFound: true);
         m_Player_Hand = m_Player.FindAction("Hand", throwIfNotFound: true);
         m_Player_Rotate = m_Player.FindAction("Rotate", throwIfNotFound: true);
         // UI
@@ -362,7 +362,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
     // Player
     private readonly InputActionMap m_Player;
     private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
-    private readonly InputAction m_Player_Release;
+    private readonly InputAction m_Player_Holding;
     private readonly InputAction m_Player_Hand;
     private readonly InputAction m_Player_Rotate;
     /// <summary>
@@ -377,9 +377,9 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         /// </summary>
         public PlayerActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
         /// <summary>
-        /// Provides access to the underlying input action "Player/Release".
+        /// Provides access to the underlying input action "Player/Holding".
         /// </summary>
-        public InputAction @Release => m_Wrapper.m_Player_Release;
+        public InputAction @Holding => m_Wrapper.m_Player_Holding;
         /// <summary>
         /// Provides access to the underlying input action "Player/Hand".
         /// </summary>
@@ -414,9 +414,9 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         {
             if (instance == null || m_Wrapper.m_PlayerActionsCallbackInterfaces.Contains(instance)) return;
             m_Wrapper.m_PlayerActionsCallbackInterfaces.Add(instance);
-            @Release.started += instance.OnRelease;
-            @Release.performed += instance.OnRelease;
-            @Release.canceled += instance.OnRelease;
+            @Holding.started += instance.OnHolding;
+            @Holding.performed += instance.OnHolding;
+            @Holding.canceled += instance.OnHolding;
             @Hand.started += instance.OnHand;
             @Hand.performed += instance.OnHand;
             @Hand.canceled += instance.OnHand;
@@ -434,9 +434,9 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         /// <seealso cref="PlayerActions" />
         private void UnregisterCallbacks(IPlayerActions instance)
         {
-            @Release.started -= instance.OnRelease;
-            @Release.performed -= instance.OnRelease;
-            @Release.canceled -= instance.OnRelease;
+            @Holding.started -= instance.OnHolding;
+            @Holding.performed -= instance.OnHolding;
+            @Holding.canceled -= instance.OnHolding;
             @Hand.started -= instance.OnHand;
             @Hand.performed -= instance.OnHand;
             @Hand.canceled -= instance.OnHand;
@@ -569,12 +569,12 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
     public interface IPlayerActions
     {
         /// <summary>
-        /// Method invoked when associated input action "Release" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "Holding" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnRelease(InputAction.CallbackContext context);
+        void OnHolding(InputAction.CallbackContext context);
         /// <summary>
         /// Method invoked when associated input action "Hand" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
