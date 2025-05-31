@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Obstacles
+  - Spike
   layers:
   - Default
   - TransparentFX
@@ -47,6 +48,9 @@ TagManager:
     locked: 0
   - name: Obstacles
     uniqueID: 2921128767
+    locked: 0
+  - name: Spike
+    uniqueID: 1152870063
     locked: 0
   - name: Player
     uniqueID: 1665688517
