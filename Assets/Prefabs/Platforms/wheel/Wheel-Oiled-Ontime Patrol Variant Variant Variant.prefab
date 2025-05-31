@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5474807545058341371
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4661886640482963572}
+    m_Modifications:
+    - target: {fileID: 5991757803281558915, guid: ffdd60cbde192a44bb2ef4f123803c8f, type: 3}
+      propertyPath: m_Name
+      value: OilCurve1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681279043283887552, guid: ffdd60cbde192a44bb2ef4f123803c8f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.14292741
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681279043283887552, guid: ffdd60cbde192a44bb2ef4f123803c8f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7398815
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681279043283887552, guid: ffdd60cbde192a44bb2ef4f123803c8f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681279043283887552, guid: ffdd60cbde192a44bb2ef4f123803c8f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681279043283887552, guid: ffdd60cbde192a44bb2ef4f123803c8f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681279043283887552, guid: ffdd60cbde192a44bb2ef4f123803c8f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681279043283887552, guid: ffdd60cbde192a44bb2ef4f123803c8f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681279043283887552, guid: ffdd60cbde192a44bb2ef4f123803c8f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681279043283887552, guid: ffdd60cbde192a44bb2ef4f123803c8f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681279043283887552, guid: ffdd60cbde192a44bb2ef4f123803c8f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8061311599074503804, guid: ffdd60cbde192a44bb2ef4f123803c8f, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ffdd60cbde192a44bb2ef4f123803c8f, type: 3}
+--- !u!4 &2405782994657875003 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7681279043283887552, guid: ffdd60cbde192a44bb2ef4f123803c8f, type: 3}
+  m_PrefabInstance: {fileID: 5474807545058341371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6908846784825293392
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 214015716749329419, guid: 1f5b76e291221464fa427115181275ce, type: 3}
+      propertyPath: m_Name
+      value: Wheel-Oiled-Ontime Patrol Variant Variant Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7845076206489986165, guid: 1f5b76e291221464fa427115181275ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0429274
+      objectReference: {fileID: 0}
+    - target: {fileID: 7845076206489986165, guid: 1f5b76e291221464fa427115181275ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.020119
+      objectReference: {fileID: 0}
+    - target: {fileID: 7845076206489986165, guid: 1f5b76e291221464fa427115181275ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7845076206489986165, guid: 1f5b76e291221464fa427115181275ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7845076206489986165, guid: 1f5b76e291221464fa427115181275ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7845076206489986165, guid: 1f5b76e291221464fa427115181275ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7845076206489986165, guid: 1f5b76e291221464fa427115181275ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7845076206489986165, guid: 1f5b76e291221464fa427115181275ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7845076206489986165, guid: 1f5b76e291221464fa427115181275ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7845076206489986165, guid: 1f5b76e291221464fa427115181275ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2257287171079416356, guid: 1f5b76e291221464fa427115181275ce, type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 2405782994657875003}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1f5b76e291221464fa427115181275ce, type: 3}
+--- !u!4 &4661886640482963572 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2257287171079416356, guid: 1f5b76e291221464fa427115181275ce, type: 3}
+  m_PrefabInstance: {fileID: 6908846784825293392}
+  m_PrefabAsset: {fileID: 0}
