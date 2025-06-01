@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace _Scripts.Extensions
 {
-    public abstract class MonoSingleton<T,T2> : MonoBehaviour where T : MonoBehaviour
+    public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
     {
         [SerializeField] private bool dontDestroyOnLoad;
         
@@ -37,14 +37,6 @@ namespace _Scripts.Extensions
             if (dontDestroyOnLoad)
             {
                 DontDestroyOnLoad(gameObject);
-            }
-        }
-        
-        protected virtual void OnDestroy()
-        {
-            if (_instance == this)
-            {
-                _instance = null;
             }
         }
         

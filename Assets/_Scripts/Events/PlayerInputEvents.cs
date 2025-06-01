@@ -4,23 +4,8 @@ using UnityEngine.Events;
 
 namespace _Scripts.Events
 {
-    public class PlayerInputEvents : MonoBehaviour
+    public class PlayerInputEvents : MonoSingleton<PlayerInputEvents>
     {
-        public static PlayerInputEvents Instance;
-
-        private void Awake()
-        {
-            if (!Instance)
-            {
-                Instance = this;
-                DontDestroyOnLoad(this);
-            }
-            else
-            {
-                Destroy(gameObject);
-            }
-        }
-        
         public UnityAction onRelease;
     }
 }
