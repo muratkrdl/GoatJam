@@ -27,7 +27,11 @@ namespace _Scripts.Managers
 
         private void OnReleaseFinished()
         {
-            Vector2 direction = -(body.transform.position - center.position).normalized;
+            float complier = -1f;
+#if UNITY_EDITOR
+            complier = 1;
+#endif
+            Vector2 direction = complier * (body.transform.position - center.position).normalized;
 
             Vector2 realDirection = direction * releaseJumpForce;
 
