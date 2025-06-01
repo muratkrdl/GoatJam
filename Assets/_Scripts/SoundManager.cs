@@ -46,6 +46,7 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private AudioClip deathSoundbylostinspace;
     [SerializeField] private AudioClip deathSoundbySpike;
     [SerializeField] private AudioClip victorySound;
+    [SerializeField] private AudioClip PianoSound;
 
     private List<AudioSource> sfxSourcePool = new List<AudioSource>();
     private int currentSfxSourceIndex = 0;
@@ -206,6 +207,10 @@ public class SoundManager : MonoBehaviour
     public void PlayVictory()
     {
         PlaySFX(victorySound);
+    }
+    public void PlayPiano()
+    {
+        PlaySFX(PianoSound);
     }
 
     // Genel SFX oynatma

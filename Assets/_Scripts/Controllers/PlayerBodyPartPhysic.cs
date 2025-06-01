@@ -24,7 +24,7 @@ namespace _Scripts.Controllers
             }
             if (other.CompareTag("Piano"))
             {
-                // SoundManager.Instance.PlayPiano();
+                SoundManager.Instance.PlayPiano();
             }
             if (other.CompareTag("LostInSpace"))
             {
