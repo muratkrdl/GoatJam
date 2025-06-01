@@ -27,7 +27,7 @@
                     "name": "Rotate",
                     "type": "Value",
                     "id": "c327d131-1955-4242-8745-0eafad1cf52d",
-                    "expectedControlType": "Axis",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -79,9 +79,9 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "1D Axis",
-                    "id": "194f5d79-0135-4af2-aca3-104f28f273f7",
-                    "path": "1DAxis",
+                    "name": "2D Vector",
+                    "id": "e3d4e37a-bcb6-4f44-ad2a-82f67d82977b",
+                    "path": "2DVector",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -90,9 +90,9 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "negative",
-                    "id": "c7fd0c8b-e415-4bd9-b581-8fa0f34bb862",
-                    "path": "<Keyboard>/q",
+                    "name": "up",
+                    "id": "e9768be8-170b-4153-a76a-ce38344a82ed",
+                    "path": "",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -101,9 +101,9 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "positive",
-                    "id": "16fc8608-de38-4406-95b2-e82ca68e7005",
-                    "path": "<Keyboard>/e",
+                    "name": "down",
+                    "id": "49931e6a-da85-45d9-8689-e8d73ec5b226",
+                    "path": "",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -112,20 +112,9 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "1D Axis",
-                    "id": "772c1f5c-3dca-4858-be91-47e1a7ac599f",
-                    "path": "1DAxis",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Rotate",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "negative",
-                    "id": "4a6d4e7c-d131-4f31-ba2d-1511a6b7cf87",
-                    "path": "<Gamepad>/dpad/left",
+                    "name": "left",
+                    "id": "485844f9-6e18-4da8-a798-8ac6c0fe1350",
+                    "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -134,42 +123,9 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "positive",
-                    "id": "f3d477c1-f742-40ae-a710-146029928c58",
-                    "path": "<Gamepad>/dpad/right",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Rotate",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "1D Axis",
-                    "id": "0af7eae1-aaf7-47bf-857c-b68911a22797",
-                    "path": "1DAxis",
-                    "interactions": "",
-                    "processors": "AxisDeadzone(min=0.75,max=1)",
-                    "groups": "",
-                    "action": "Rotate",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "negative",
-                    "id": "90eaf08a-5abd-4564-8849-85386df79b94",
-                    "path": "<Gamepad>/leftStick/left",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Rotate",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "positive",
-                    "id": "64a41f22-eaa9-4ced-bdfa-6c9c30844822",
-                    "path": "<Gamepad>/leftStick/right",
+                    "name": "right",
+                    "id": "12a1445b-2e95-4501-8da5-b065c5408540",
+                    "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

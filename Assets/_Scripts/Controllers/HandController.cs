@@ -1,6 +1,7 @@
 using System;
 using _Scripts.Events;
 using _Scripts.Keys;
+using _Scripts.Managers;
 using Cysharp.Threading.Tasks;
 using Runtime.Utilities;
 using UnityEngine;
@@ -9,6 +10,8 @@ namespace _Scripts.Controllers
 {
     public class HandController : MonoBehaviour
     {
+        [SerializeField] private PlayerInputManager input;
+        
         [SerializeField] private SpringJoint2D handSpring;
         [SerializeField] private Rigidbody2D myRigidbody;
         [SerializeField] private Transform initialParent;
@@ -76,9 +79,9 @@ namespace _Scripts.Controllers
         
         private void StartRotationAlignment()
         {
-            Vector2 pompaDirection = -_attachmentNormal;
+            Vector2 pumpDirection = -_attachmentNormal;
             
-            float angle = Mathf.Atan2(pompaDirection.y, pompaDirection.x) * Mathf.Rad2Deg + 90f;
+            float angle = Mathf.Atan2(pumpDirection.y, pumpDirection.x) * Mathf.Rad2Deg + 90f;
             
             _targetRotation = angle;
             
@@ -89,6 +92,8 @@ namespace _Scripts.Controllers
         {
             // Exit from obstacle
             if (!_currentHandedObstacle) return;
+            
+            input.ExitFromObstacle();
             
             Collider2D otherCollider = _currentHandedObstacle.GetComponent<Collider2D>();
             IgnoreCollider(otherCollider).Forget();

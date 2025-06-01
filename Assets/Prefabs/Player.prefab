@@ -831,6 +831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c137113b6dd84515bc3a4113dba1510f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  input: {fileID: 2513310808268364768}
   handSpring: {fileID: 5893647819121404817}
   myRigidbody: {fileID: 737453442435774045}
   initialParent: {fileID: 7975646668754004885}
@@ -1597,6 +1598,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92b688a96ed544dc8f8de7a6d09ceb3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  body: {fileID: 737453442435774045}
+  rotateSpeed: 30
 --- !u!114 &3993469974113706505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1612,7 +1615,7 @@ MonoBehaviour:
   center: {fileID: 2635678887405215631}
   body: {fileID: 737453442435774045}
   slimeJumpForce: 10
-  firstJumpForce: 5
+  firstJumpForce: 1
   releaseJumpForce: 10
 --- !u!1 &8223305189635999948
 GameObject:
