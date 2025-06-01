@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/GameScene.unity
     guid: 3cdd0e9f2864a9d40aa79d3f0ac800d8
   - enabled: 1
-    path: Assets/Scenes/AtaDemoScene.unity
+    path: Assets/Ata/AtaDemoScene.unity
     guid: c20a02f9f2ea5e34ca0e38a12dfc0c00
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 0bfeef1a26fd4c64aaf0b201c198745f, type: 3}
