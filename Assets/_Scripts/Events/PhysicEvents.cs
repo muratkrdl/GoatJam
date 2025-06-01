@@ -23,7 +23,6 @@ namespace _Scripts.Events
             }
         }
         
-        
         public UnityAction<OnHandCollisionEnterParams> onHandCollisionEnter;
         public UnityAction<SlimeObject> onCollisionSlime;
     }

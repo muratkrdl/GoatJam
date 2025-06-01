@@ -17,7 +17,6 @@ namespace _Scripts.Managers
 
         private void OnRelease()
         {
-            Debug.Log("Hand OnRelease");
             Vector3 bodyScales = body.transform.localScale;
             bodyScales *= -1;
             bodyScales.z = 1;
