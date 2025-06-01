@@ -17,6 +17,7 @@ namespace _Scripts.Controllers
                 SoundManager.Instance?.PlayDeathbySpike();
                 // Death panel'i g�ster ve oyunu durdur
                 UIManager uiManager = FindFirstObjectByType<UIManager>();
+                SceneController.Instance.SetISGameOver(true);
                 if (uiManager != null)
                 {
                     uiManager.ShowDeathPanel();
