@@ -2,6 +2,7 @@ using System;
 using _Scripts.Events;
 using _Scripts.Keys;
 using _Scripts.Managers;
+using _Scripts.Object.Platforms;
 using Cysharp.Threading.Tasks;
 using Runtime.Utilities;
 using UnityEngine;
@@ -66,6 +67,11 @@ namespace _Scripts.Controllers
 
         private void OnTriggerEnterFunc(Collision2D other)
         {
+            if (other.transform.TryGetComponent<OneTimePatrolPlatform>(out var platform))
+            {
+                platform.StartMove();
+            }
+            
             handSpring.enabled = true;
             myRigidbody.bodyType = RigidbodyType2D.Kinematic;
             _currentHandedObstacle = other.transform;

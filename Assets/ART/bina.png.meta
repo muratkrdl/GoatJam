@@ -1,0 +1,3980 @@
+fileFormatVersion: 2
+guid: 2cad3021f7933a444ab3f60ff355741d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4152426872154828619
+    second: bina_0
+  - first:
+      213: -5560033197145674503
+    second: bina_1
+  - first:
+      213: -1142072877088322614
+    second: bina_2
+  - first:
+      213: 8257351526935543016
+    second: bina_3
+  - first:
+      213: 2639049351759831954
+    second: bina_4
+  - first:
+      213: -8949036966517416113
+    second: bina_5
+  - first:
+      213: 7454905329329616828
+    second: bina_6
+  - first:
+      213: 7589631076921323526
+    second: bina_7
+  - first:
+      213: 2670512580597285030
+    second: bina_8
+  - first:
+      213: 1238012506293760081
+    second: bina_9
+  - first:
+      213: 7208643173842239368
+    second: bina_10
+  - first:
+      213: -4011160459805441903
+    second: bina_11
+  - first:
+      213: -147240770519125102
+    second: bina_12
+  - first:
+      213: 5342247736942559059
+    second: bina_13
+  - first:
+      213: -6795118437384584348
+    second: bina_14
+  - first:
+      213: 7781221668134487912
+    second: bina_15
+  - first:
+      213: 802571561221832155
+    second: bina_16
+  - first:
+      213: -4340986191104682674
+    second: bina_17
+  - first:
+      213: 3355603233560625878
+    second: bina_18
+  - first:
+      213: 8302119270821648237
+    second: bina_19
+  - first:
+      213: 1477949594235629626
+    second: bina_20
+  - first:
+      213: 4546126819698448215
+    second: bina_21
+  - first:
+      213: -7856306568525701572
+    second: bina_22
+  - first:
+      213: 5168906617892552013
+    second: bina_23
+  - first:
+      213: 7614828672086674364
+    second: bina_24
+  - first:
+      213: 5687210476561415817
+    second: bina_25
+  - first:
+      213: -3659554839358898623
+    second: bina_26
+  - first:
+      213: -4748069160828558444
+    second: bina_27
+  - first:
+      213: -1910073791609770750
+    second: bina_28
+  - first:
+      213: -3299883802223503356
+    second: bina_29
+  - first:
+      213: 9046242786008860447
+    second: bina_30
+  - first:
+      213: -434857449761501407
+    second: bina_31
+  - first:
+      213: -6894658129346781288
+    second: bina_32
+  - first:
+      213: -6832477983241198436
+    second: bina_33
+  - first:
+      213: 66034851718580471
+    second: bina_34
+  - first:
+      213: -5033018851459347528
+    second: bina_35
+  - first:
+      213: -8510948997102246145
+    second: bina_36
+  - first:
+      213: -3295686986911650885
+    second: bina_37
+  - first:
+      213: -6365768965815746752
+    second: bina_38
+  - first:
+      213: 4457190631947950909
+    second: bina_39
+  - first:
+      213: 1370455105859992394
+    second: bina_40
+  - first:
+      213: -8264555644439119257
+    second: bina_41
+  - first:
+      213: 9157992325551148679
+    second: bina_42
+  - first:
+      213: -1071788056044096613
+    second: bina_43
+  - first:
+      213: 7272958962246964952
+    second: bina_44
+  - first:
+      213: -2512887552169591913
+    second: bina_45
+  - first:
+      213: 4785213044534120904
+    second: bina_46
+  - first:
+      213: -2549569070128733945
+    second: bina_47
+  - first:
+      213: 6052955214667974150
+    second: bina_48
+  - first:
+      213: -8106302716225613994
+    second: bina_49
+  - first:
+      213: 5895977211156537451
+    second: bina_50
+  - first:
+      213: 5483706947928033482
+    second: bina_51
+  - first:
+      213: -1203682712976912687
+    second: bina_52
+  - first:
+      213: 9103750114602112355
+    second: bina_53
+  - first:
+      213: -6572054634492608027
+    second: bina_54
+  - first:
+      213: -692463844643243202
+    second: bina_55
+  - first:
+      213: 9055688350668275155
+    second: bina_56
+  - first:
+      213: -5803792954465849308
+    second: bina_57
+  - first:
+      213: -3173158354060719473
+    second: bina_58
+  - first:
+      213: 3370231448344748896
+    second: bina_59
+  - first:
+      213: -4690728820216414344
+    second: bina_60
+  - first:
+      213: 2028535147938051347
+    second: bina_61
+  - first:
+      213: -1931242140467516344
+    second: bina_62
+  - first:
+      213: -9145614031584747932
+    second: bina_63
+  - first:
+      213: -283115888386987499
+    second: bina_64
+  - first:
+      213: -4064029271734056750
+    second: bina_65
+  - first:
+      213: 1206953280025971648
+    second: bina_66
+  - first:
+      213: -4033181927438764421
+    second: bina_67
+  - first:
+      213: -2609522094051972956
+    second: bina_68
+  - first:
+      213: -7936924295147759285
+    second: bina_69
+  - first:
+      213: 3186967756422275753
+    second: bina_70
+  - first:
+      213: 71706242463433605
+    second: bina_71
+  - first:
+      213: -1445138708579884410
+    second: bina_72
+  - first:
+      213: -8506833355084817145
+    second: bina_73
+  - first:
+      213: -5366795442629410949
+    second: bina_74
+  - first:
+      213: 3796649581735716119
+    second: bina_75
+  - first:
+      213: -7862384086115520444
+    second: bina_76
+  - first:
+      213: 3364710943502978394
+    second: bina_77
+  - first:
+      213: 8746672853472771166
+    second: bina_78
+  - first:
+      213: -4595184391632932677
+    second: bina_79
+  - first:
+      213: -1284312108817838453
+    second: bina_80
+  - first:
+      213: 2005878044340960233
+    second: bina_81
+  - first:
+      213: 8532183460758376803
+    second: bina_82
+  - first:
+      213: 2826113025300060126
+    second: bina_83
+  - first:
+      213: 2349471241775848892
+    second: bina_84
+  - first:
+      213: 2180689021675388200
+    second: bina_85
+  - first:
+      213: -5827810845514679510
+    second: bina_86
+  - first:
+      213: -6665731836528856048
+    second: bina_87
+  - first:
+      213: 8266703328326899275
+    second: bina_88
+  - first:
+      213: 5931907570362174209
+    second: bina_89
+  - first:
+      213: -4583866163090598752
+    second: bina_90
+  - first:
+      213: -8272537851622156259
+    second: bina_91
+  - first:
+      213: -2071796310589616890
+    second: bina_92
+  - first:
+      213: -510900404300279490
+    second: bina_93
+  - first:
+      213: -8474360581297711272
+    second: bina_94
+  - first:
+      213: -6836811164184203391
+    second: bina_95
+  - first:
+      213: 8913373260163669450
+    second: bina_96
+  - first:
+      213: -9195496389283670294
+    second: bina_97
+  - first:
+      213: 2219941805248508000
+    second: bina_98
+  - first:
+      213: -5282812362542378387
+    second: bina_99
+  - first:
+      213: -1254722853644218147
+    second: bina_100
+  - first:
+      213: 2471782505269532687
+    second: bina_101
+  - first:
+      213: -617720172636472128
+    second: bina_102
+  - first:
+      213: -7314758290145646270
+    second: bina_103
+  - first:
+      213: -4307550851174422693
+    second: bina_104
+  - first:
+      213: 8916966502837904323
+    second: bina_105
+  - first:
+      213: -961252848920057014
+    second: bina_106
+  - first:
+      213: -4641396046466818682
+    second: bina_107
+  - first:
+      213: 8688056514264007681
+    second: bina_108
+  - first:
+      213: -389722861443059957
+    second: bina_109
+  - first:
+      213: 558334324970299413
+    second: bina_110
+  - first:
+      213: -2778105941302902648
+    second: bina_111
+  - first:
+      213: 644363159029070798
+    second: bina_112
+  - first:
+      213: -2928817085605505463
+    second: bina_113
+  - first:
+      213: -3790581327358560446
+    second: bina_114
+  - first:
+      213: 1875054672217348823
+    second: bina_115
+  - first:
+      213: 1921455955837870199
+    second: bina_116
+  - first:
+      213: 7392941730693724289
+    second: bina_117
+  - first:
+      213: 414072919034485150
+    second: bina_118
+  - first:
+      213: 1989500394585371653
+    second: bina_119
+  - first:
+      213: -5884099004375431384
+    second: bina_120
+  - first:
+      213: 3460038996817338701
+    second: bina_121
+  - first:
+      213: -2531816152609329928
+    second: bina_122
+  - first:
+      213: -7173671950455918753
+    second: bina_123
+  - first:
+      213: 317447479966299554
+    second: bina_124
+  - first:
+      213: -8661871119993919199
+    second: bina_125
+  - first:
+      213: 5649698317951105625
+    second: bina_126
+  - first:
+      213: -4655895321742935077
+    second: bina_127
+  - first:
+      213: 7807095393037132861
+    second: bina_128
+  - first:
+      213: 713778795174543063
+    second: bina_129
+  - first:
+      213: 7614642369929230585
+    second: bina_130
+  - first:
+      213: 5368744594232744290
+    second: bina_131
+  - first:
+      213: -8663743835192192848
+    second: bina_132
+  - first:
+      213: 5595706701018389870
+    second: bina_133
+  - first:
+      213: 4821021648098326839
+    second: bina_134
+  - first:
+      213: -5927839590905286119
+    second: bina_135
+  - first:
+      213: 190930417715966700
+    second: bina_136
+  - first:
+      213: 8159353612297599111
+    second: bina_137
+  - first:
+      213: 29205369844182685
+    second: bina_138
+  - first:
+      213: -3337715548670913339
+    second: bina_139
+  - first:
+      213: -1688515506954119361
+    second: bina_140
+  - first:
+      213: -5589151512697745518
+    second: bina_141
+  - first:
+      213: -1268028367411819927
+    second: bina_142
+  - first:
+      213: -3980601562585614967
+    second: bina_143
+  - first:
+      213: 3056089331605149489
+    second: bina_144
+  - first:
+      213: 2770636858473935985
+    second: bina_145
+  - first:
+      213: 889989049008495669
+    second: bina_146
+  - first:
+      213: 686681452465280545
+    second: bina_147
+  - first:
+      213: -5156214056656875433
+    second: bina_148
+  - first:
+      213: 5537899041987416895
+    second: bina_149
+  - first:
+      213: -3292625401479834145
+    second: bina_150
+  - first:
+      213: -4898427348593690178
+    second: bina_151
+  - first:
+      213: -6176379783154605213
+    second: bina_152
+  - first:
+      213: 5264700120332188838
+    second: bina_153
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bina_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18739
+        width: 1108
+        height: 1261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f239e5d3260a930800000000000000
+      internalID: 4152426872154828619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_1
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 19727
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fca0c8f34bc6d2b0800000000000000
+      internalID: -5560033197145674503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_2
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 19544
+        width: 246
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbca8de4ca8620f0800000000000000
+      internalID: -1142072877088322614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_3
+      rect:
+        serializedVersion: 2
+        x: 2294
+        y: 19281
+        width: 278
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ecb584e671089270800000000000000
+      internalID: 8257351526935543016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_4
+      rect:
+        serializedVersion: 2
+        x: 2950
+        y: 19695
+        width: 153
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293ae543769cf9420800000000000000
+      internalID: 2639049351759831954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_5
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 19428
+        width: 246
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4fd3e00b42aec380800000000000000
+      internalID: -8949036966517416113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_6
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 19436
+        width: 122
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7bbd436e4257760800000000000000
+      internalID: 7454905329329616828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_7
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 19476
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600392cb049c35960800000000000000
+      internalID: 7589631076921323526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_8
+      rect:
+        serializedVersion: 2
+        x: 3149
+        y: 19524
+        width: 91
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a086b60b019f0520800000000000000
+      internalID: 2670512580597285030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_9
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 19341
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1507121b0dd4e2110800000000000000
+      internalID: 1238012506293760081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_10
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 19141
+        width: 146
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f396906ce3a0460800000000000000
+      internalID: 7208643173842239368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_11
+      rect:
+        serializedVersion: 2
+        x: 2190
+        y: 18974
+        width: 230
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190443850de7558c0800000000000000
+      internalID: -4011160459805441903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_12
+      rect:
+        serializedVersion: 2
+        x: 2854
+        y: 18890
+        width: 254
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293b0c0ac45e4fdf0800000000000000
+      internalID: -147240770519125102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_13
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 19050
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f7896230a732a40800000000000000
+      internalID: 5342247736942559059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_14
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 18982
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4630cf488c3e2b1a0800000000000000
+      internalID: -6795118437384584348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_15
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 18930
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8678ab761e37cfb60800000000000000
+      internalID: 7781221668134487912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_16
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 18687
+        width: 154
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd357d259e432b00800000000000000
+      internalID: 802571561221832155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_17
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 18843
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4554580f08b1c3c0800000000000000
+      internalID: -4340986191104682674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_18
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 18739
+        width: 190
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d28887bc5f719e20800000000000000
+      internalID: 3355603233560625878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_19
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 18484
+        width: 246
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67df348d7d073370800000000000000
+      internalID: 8302119270821648237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_20
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 18217
+        width: 278
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30f850535bb28410800000000000000
+      internalID: 1477949594235629626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_21
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 18626
+        width: 154
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75790009146171f30800000000000000
+      internalID: 4546126819698448215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_22
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 18653
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e1578eccac8f290800000000000000
+      internalID: -7856306568525701572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_23
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 18467
+        width: 246
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4db6a4de25abb740800000000000000
+      internalID: 5168906617892552013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_24
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 18200
+        width: 278
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb8f29055e4da960800000000000000
+      internalID: 7614828672086674364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18379
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98eb25adbc70dee40800000000000000
+      internalID: 5687210476561415817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_26
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 18416
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e73f34346a63dc0800000000000000
+      internalID: -3659554839358898623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_27
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 18357
+        width: 246
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493a3db21487b1eb0800000000000000
+      internalID: -4748069160828558444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_28
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 18362
+        width: 122
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20de05ca10e0e75e0800000000000000
+      internalID: -1910073791609770750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_29
+      rect:
+        serializedVersion: 2
+        x: 2386
+        y: 18398
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40817685a257432d0800000000000000
+      internalID: -3299883802223503356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_30
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 18275
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f178ff382e5ba8d70800000000000000
+      internalID: 9046242786008860447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_31
+      rect:
+        serializedVersion: 2
+        x: 3001
+        y: 18257
+        width: 74
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f8803147317f9f0800000000000000
+      internalID: -434857449761501407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_32
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 18084
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f9688f5f04150a0800000000000000
+      internalID: -6894658129346781288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_33
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 17911
+        width: 230
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c942b3969792e21a0800000000000000
+      internalID: -6832477983241198436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_34
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 17822
+        width: 254
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f84b77095a9ae000800000000000000
+      internalID: 66034851718580471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_35
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 18066
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbcbea4500272ab0800000000000000
+      internalID: -5033018851459347528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_36
+      rect:
+        serializedVersion: 2
+        x: 2527
+        y: 17894
+        width: 230
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6e046eaf803e980800000000000000
+      internalID: -8510948997102246145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_37
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 17978
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbe04e852e5342d0800000000000000
+      internalID: -3295686986911650885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_38
+      rect:
+        serializedVersion: 2
+        x: 3191
+        y: 17956
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04fb8565ade38a7a0800000000000000
+      internalID: -6365768965815746752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_39
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 17871
+        width: 58
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3bd479b34f1bdd30800000000000000
+      internalID: 4457190631947950909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_40
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 17911
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4bb76568a5d40310800000000000000
+      internalID: 1370455105859992394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_41
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 17853
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ab1cacd666e4d80800000000000000
+      internalID: -8264555644439119257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17630
+        width: 66
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78eca3cbf79b71f70800000000000000
+      internalID: 9157992325551148679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_43
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 17782
+        width: 66
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b933cfc017e3021f0800000000000000
+      internalID: -1071788056044096613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_44
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 17673
+        width: 190
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d659b274adbee460800000000000000
+      internalID: 7272958962246964952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_45
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 17613
+        width: 154
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b3e6cc51e602dd0800000000000000
+      internalID: -2512887552169591913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_46
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 17764
+        width: 66
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1950e29ed786240800000000000000
+      internalID: 4785213044534120904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_47
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 17655
+        width: 190
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70167ac507c1e9cd0800000000000000
+      internalID: -2549569070128733945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_48
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 17324
+        width: 190
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60602a3a2ba600450800000000000000
+      internalID: 6052955214667974150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_49
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 17352
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f869de0a0a08f80800000000000000
+      internalID: -8106302716225613994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_50
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 17388
+        width: 154
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60a8ca0908b2d150800000000000000
+      internalID: 5895977211156537451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_51
+      rect:
+        serializedVersion: 2
+        x: 2201
+        y: 17308
+        width: 175
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8879b4a6a0a1c40800000000000000
+      internalID: 5483706947928033482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_52
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 17336
+        width: 65
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de8bbe23f8ab4fe0800000000000000
+      internalID: -1203682712976912687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17013
+        width: 184
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365d7c8de74075e70800000000000000
+      internalID: 9103750114602112355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_54
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 17021
+        width: 230
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1cb92512f5bc4a0800000000000000
+      internalID: -6572054634492608027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_55
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 17276
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3bfc385dcfd366f0800000000000000
+      internalID: -692463844643243202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_56
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 17240
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddb93a63944cad70800000000000000
+      internalID: 9055688350668275155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_57
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 17002
+        width: 256
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420f527ce09c47fa0800000000000000
+      internalID: -5803792954465849308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_58
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 17005
+        width: 230
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ac5220a4da6f3d0800000000000000
+      internalID: -3173158354060719473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_59
+      rect:
+        serializedVersion: 2
+        x: 3023
+        y: 17265
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063607165a775ce20800000000000000
+      internalID: 3370231448344748896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_60
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 17172
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f30559dfe27eeb0800000000000000
+      internalID: -4690728820216414344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_61
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 16981
+        width: 146
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315fd3b28fdc62c10800000000000000
+      internalID: 2028535147938051347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_62
+      rect:
+        serializedVersion: 2
+        x: 3171
+        y: 17010
+        width: 69
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c2b226189d235e0800000000000000
+      internalID: -1931242140467516344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_63
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 16854
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e109a6e70441180800000000000000
+      internalID: -9145614031584747932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_64
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 16495
+        width: 278
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51aac6a799b221cf0800000000000000
+      internalID: -283115888386987499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_65
+      rect:
+        serializedVersion: 2
+        x: 2302
+        y: 16838
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d88085d8eaa997c0800000000000000
+      internalID: -4064029271734056750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_66
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 16479
+        width: 278
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbc07c0d95ffb010800000000000000
+      internalID: 1206953280025971648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_67
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 16746
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76bc7cd7624708c0800000000000000
+      internalID: -4033181927438764421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_68
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 16666
+        width: 121
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8af763b7d19cbd0800000000000000
+      internalID: -2609522094051972956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_69
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 16571
+        width: 240
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49dc8ab7616ad190800000000000000
+      internalID: -7936924295147759285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_70
+      rect:
+        serializedVersion: 2
+        x: 2939
+        y: 16731
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a26c280a426a3c20800000000000000
+      internalID: 3186967756422275753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16380
+        width: 88
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58306369270cef000800000000000000
+      internalID: 71706242463433605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_72
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 16332
+        width: 113
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682edef4006d1fbe0800000000000000
+      internalID: -1445138708579884410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_73
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 16455
+        width: 245
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d99ba7228a1f980800000000000000
+      internalID: -8506833355084817145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_74
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 16495
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f73ebbaff4585b0800000000000000
+      internalID: -5366795442629410949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_75
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 16371
+        width: 132
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7152ef7dda860b430800000000000000
+      internalID: 3796649581735716119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_76
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 16400
+        width: 147
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4407663945333e290800000000000000
+      internalID: -7862384086115520444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_77
+      rect:
+        serializedVersion: 2
+        x: 2939
+        y: 16421
+        width: 291
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d4d5fa6cad1be20800000000000000
+      internalID: 3364710943502978394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_78
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 16351
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5cfbcd4e9c626970800000000000000
+      internalID: 8746672853472771166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_79
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 16188
+        width: 238
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0bc436420aa30c0800000000000000
+      internalID: -4595184391632932677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_80
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 15974
+        width: 293
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e0e2d01f43d2ee0800000000000000
+      internalID: -1284312108817838453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_81
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 16134
+        width: 258
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ebb2b7247f46db10800000000000000
+      internalID: 2005878044340960233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16285
+        width: 65
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36157f0f6a7686670800000000000000
+      internalID: 8532183460758376803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_83
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 16053
+        width: 242
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed75d18b2de583720800000000000000
+      internalID: 2826113025300060126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_84
+      rect:
+        serializedVersion: 2
+        x: 3037
+        y: 16128
+        width: 125
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd9b0875affa9020800000000000000
+      internalID: 2349471241775848892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_85
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 16062
+        width: 113
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d3e868c1d534e10800000000000000
+      internalID: 2180689021675388200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_86
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 16130
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2bbdeeb9e47f1fa0800000000000000
+      internalID: -5827810845514679510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_87
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 16035
+        width: 67
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0147fa316309e73a0800000000000000
+      internalID: -6665731836528856048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_88
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 16043
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46d674d0ea39b270800000000000000
+      internalID: 8266703328326899275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_89
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 15539
+        width: 265
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b43e3b18e525250800000000000000
+      internalID: 5931907570362174209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_90
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 15772
+        width: 149
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a45d03d206d260c0800000000000000
+      internalID: -4583866163090598752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_91
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 15659
+        width: 220
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18961b57aa023d80800000000000000
+      internalID: -8272537851622156259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_92
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 15595
+        width: 255
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d475c7b308f33e0800000000000000
+      internalID: -2071796310589616890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_93
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 15826
+        width: 138
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3114160acae8e8f0800000000000000
+      internalID: -510900404300279490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_94
+      rect:
+        serializedVersion: 2
+        x: 2765
+        y: 15757
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8575d2d43f5056a80800000000000000
+      internalID: -8474360581297711272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_95
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 15674
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f206a1874ce11a0800000000000000
+      internalID: -6836811164184203391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_96
+      rect:
+        serializedVersion: 2
+        x: 2686
+        y: 15688
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd558a41c9a2bb70800000000000000
+      internalID: 8913373260163669450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15435
+        width: 208
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae61c57f0c8036080800000000000000
+      internalID: -9195496389283670294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_98
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 15446
+        width: 168
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06070e36f41dece10800000000000000
+      internalID: 2219941805248508000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_99
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 15606
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d629e93552eafa6b0800000000000000
+      internalID: -5282812362542378387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_100
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 15579
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0d8f06634569ee0800000000000000
+      internalID: -1254722853644218147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_101
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 15442
+        width: 183
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f089d9ca7198d4220800000000000000
+      internalID: 2471782505269532687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_102
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 15314
+        width: 173
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ccf86b96ca6d67f0800000000000000
+      internalID: -617720172636472128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_103
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 15376
+        width: 189
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24966022712cc7a90800000000000000
+      internalID: -7314758290145646270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_104
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 15502
+        width: 68
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5721dfb2518834c0800000000000000
+      internalID: -4307550851174422693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_105
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 15336
+        width: 162
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3e5bb4acd6fbb70800000000000000
+      internalID: 8916966502837904323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_106
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 15383
+        width: 150
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ba9c870a1f8a2f0800000000000000
+      internalID: -961252848920057014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_107
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15359
+        width: 67
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d517c03e2769fb0800000000000000
+      internalID: -4641396046466818682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_108
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 15297
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10489315e5d229870800000000000000
+      internalID: 8688056514264007681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_109
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 15315
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f66d25f1d679af0800000000000000
+      internalID: -389722861443059957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_110
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 15080
+        width: 259
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51023c14c1a9fb700800000000000000
+      internalID: 558334324970299413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_111
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 15356
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8800d3c8d5f2279d0800000000000000
+      internalID: -2778105941302902648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_112
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 15245
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbb64011ec31f800800000000000000
+      internalID: 644363159029070798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_113
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 15047
+        width: 232
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9469360d060ca57d0800000000000000
+      internalID: -2928817085605505463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_114
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 15272
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247709abd56256bc0800000000000000
+      internalID: -3790581327358560446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_115
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 15031
+        width: 148
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da93f73a48850a10800000000000000
+      internalID: 1875054672217348823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_116
+      rect:
+        serializedVersion: 2
+        x: 2839
+        y: 15140
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7706643f2026aaa10800000000000000
+      internalID: 1921455955837870199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_117
+      rect:
+        serializedVersion: 2
+        x: 3067
+        y: 14871
+        width: 173
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1883927a551099660800000000000000
+      internalID: 7392941730693724289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_118
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 14957
+        width: 143
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99d82240251fb500800000000000000
+      internalID: 414072919034485150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_119
+      rect:
+        serializedVersion: 2
+        x: 2746
+        y: 15084
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504b2cb61102c9b10800000000000000
+      internalID: 1989500394585371653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_120
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 14648
+        width: 227
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82709fc712b775ea0800000000000000
+      internalID: -5884099004375431384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_121
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 14904
+        width: 73
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41eb42b227840030800000000000000
+      internalID: 3460038996817338701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_122
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 14536
+        width: 270
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fcef139f9e2ddcd0800000000000000
+      internalID: -2531816152609329928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_123
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 14760
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f24e96e5ff17c90800000000000000
+      internalID: -7173671950455918753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_124
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 14726
+        width: 113
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5fb361dccc76400800000000000000
+      internalID: 317447479966299554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_125
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 14754
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1292c82eb1adac780800000000000000
+      internalID: -8661871119993919199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_126
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 14637
+        width: 106
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95af891dfa2c76e40800000000000000
+      internalID: 5649698317951105625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_127
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 14487
+        width: 233
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdbfb147fdfe26fb0800000000000000
+      internalID: -4655895321742935077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_128
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 14562
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34219d65ef585c60800000000000000
+      internalID: 7807095393037132861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_129
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 14518
+        width: 135
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7deb59e480ad7e900800000000000000
+      internalID: 713778795174543063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_130
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 14530
+        width: 220
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8354f24e4aca960800000000000000
+      internalID: 7614642369929230585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_131
+      rect:
+        serializedVersion: 2
+        x: 2718
+        y: 14606
+        width: 234
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2699a0d73cc918a40800000000000000
+      internalID: 5368744594232744290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_132
+      rect:
+        serializedVersion: 2
+        x: 3081
+        y: 14587
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0936662e234c780800000000000000
+      internalID: -8663743835192192848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14153
+        width: 175
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d5975e891f7ad40800000000000000
+      internalID: 5595706701018389870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_134
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 14416
+        width: 40
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7397e5565a5b7e240800000000000000
+      internalID: 4821021648098326839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_135
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 14403
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912f7929c451cbda0800000000000000
+      internalID: -5927839590905286119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_136
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 14389
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2f6cc043256a200800000000000000
+      internalID: 190930417715966700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_137
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 14143
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7887cc951e8db3170800000000000000
+      internalID: 8159353612297599111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_138
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 14079
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ea81f0122c76000800000000000000
+      internalID: 29205369844182685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_139
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 14124
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c41c28746d0ea1d0800000000000000
+      internalID: -3337715548670913339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_140
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 14116
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37d242b7103198e0800000000000000
+      internalID: -1688515506954119361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_141
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 14046
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f40d1df485f62b0800000000000000
+      internalID: -5589151512697745518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_142
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 13878
+        width: 49
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96acc4b0bee076ee0800000000000000
+      internalID: -1268028367411819927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_143
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 13944
+        width: 50
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98538bd08ff02c8c0800000000000000
+      internalID: -3980601562585614967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_144
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 13567
+        width: 229
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1379f242e09696a20800000000000000
+      internalID: 3056089331605149489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_145
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 13505
+        width: 248
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17471f61b87437620800000000000000
+      internalID: 2770636858473935985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_146
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 13736
+        width: 16
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c93202350e95c00800000000000000
+      internalID: 889989049008495669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_147
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 13707
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126da009425978900800000000000000
+      internalID: 686681452465280545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_148
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 13629
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750571f52a27178b0800000000000000
+      internalID: -5156214056656875433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_149
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 13540
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33d2af66d19adc40800000000000000
+      internalID: 5537899041987416895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_150
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 13338
+        width: 202
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5dd5674ae3e42d0800000000000000
+      internalID: -3292625401479834145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_151
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 13368
+        width: 144
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9b309874a450cb0800000000000000
+      internalID: -4898427348593690178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_152
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 13444
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3636a23af47194aa0800000000000000
+      internalID: -6176379783154605213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bina_153
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 0
+        width: 2721
+        height: 3276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac3b59add8ff0940800000000000000
+      internalID: 5264700120332188838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
