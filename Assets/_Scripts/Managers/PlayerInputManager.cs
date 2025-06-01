@@ -1,3 +1,4 @@
+using System;
 using _Scripts.Events;
 using _Scripts.Keys;
 using UnityEngine;
@@ -13,6 +14,12 @@ namespace _Scripts.Managers
         {
             PhysicEvents.Instance.onHandCollisionEnter += OnHandCollisionEnter;
             PlayerInputEvents.Instance.onRelease += OnRelease;
+            PlayerInputEvents.Instance.onReleaseFinished += OnReleaseFinished;
+        }
+
+        private void OnReleaseFinished()
+        {
+            ExitFromObstacle();
         }
 
         private void OnRelease()
@@ -36,7 +43,7 @@ namespace _Scripts.Managers
             body.transform.localScale = bodyScales;
         }
 
-        public void ExitFromObstacle()
+        private void ExitFromObstacle()
         {
             body.rotation = -180f;
         }
@@ -45,6 +52,7 @@ namespace _Scripts.Managers
         {
             PhysicEvents.Instance.onHandCollisionEnter -= OnHandCollisionEnter;
             PlayerInputEvents.Instance.onRelease -= OnRelease;
+            PlayerInputEvents.Instance.onReleaseFinished -= OnReleaseFinished;
         }
 
     }

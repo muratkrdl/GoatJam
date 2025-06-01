@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere-Simple-Normal Platform Variant (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1646967677436304765, guid: 19420ca5d44375445a10f0184cdecc00, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6478878526612091227, guid: 19420ca5d44375445a10f0184cdecc00, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.4
@@ -244,6 +248,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheel-Simple-Normal Platform Variant Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7191284500562767941, guid: 9fadf186476937940860ab06d71c894c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -348,6 +356,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blade-Normal Platform (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1402558700826988148, guid: f4e380d43afd859418948bcc49ed513b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5253086640371059363, guid: f4e380d43afd859418948bcc49ed513b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.46
@@ -404,6 +416,10 @@ PrefabInstance:
     - target: {fileID: 1646967677436304765, guid: 19420ca5d44375445a10f0184cdecc00, type: 3}
       propertyPath: m_Name
       value: Sphere-Simple-Normal Platform Variant (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646967677436304765, guid: 19420ca5d44375445a10f0184cdecc00, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6478878526612091227, guid: 19420ca5d44375445a10f0184cdecc00, type: 3}
       propertyPath: m_LocalPosition.x
@@ -485,6 +501,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sheep (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3115873741033867034, guid: 73aaf4db4d8a8b84db95400b3f0c71a4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3408624650830502627, guid: 73aaf4db4d8a8b84db95400b3f0c71a4, type: 3}
       propertyPath: m_FlipX
       value: 1
@@ -565,6 +585,10 @@ PrefabInstance:
     - target: {fileID: 1073139925072250429, guid: c568fb777420f954fb8e75f0e21108ac, type: 3}
       propertyPath: m_Name
       value: Wheel-Oiled-Patrol Platform Variant Variant Variant 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1073139925072250429, guid: c568fb777420f954fb8e75f0e21108ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1985152769482410745, guid: c568fb777420f954fb8e75f0e21108ac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -695,6 +719,10 @@ PrefabInstance:
     - target: {fileID: 3693066743819734157, guid: e8cfc97d8338f38458bf1e39b698f738, type: 3}
       propertyPath: m_Name
       value: Meteor-Simple-Normal Platform Variant Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3693066743819734157, guid: e8cfc97d8338f38458bf1e39b698f738, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8967446905467805867, guid: e8cfc97d8338f38458bf1e39b698f738, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1197,6 +1225,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere-Simple-Normal Platform Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1646967677436304765, guid: 19420ca5d44375445a10f0184cdecc00, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6478878526612091227, guid: 19420ca5d44375445a10f0184cdecc00, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.39
@@ -1253,6 +1285,10 @@ PrefabInstance:
     - target: {fileID: 1402558700826988148, guid: f4e380d43afd859418948bcc49ed513b, type: 3}
       propertyPath: m_Name
       value: Blade-Normal Platform (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1402558700826988148, guid: f4e380d43afd859418948bcc49ed513b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5253086640371059363, guid: f4e380d43afd859418948bcc49ed513b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1355,6 +1391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piano-Simple-Normal Platform Variant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5209748311772975346, guid: 567dcb37ea582da468d3bee583bba76d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1371,6 +1411,10 @@ PrefabInstance:
     - target: {fileID: 3409174319111325077, guid: 7281c5ecfeef51e48b6e11a2aff19bd6, type: 3}
       propertyPath: m_Name
       value: Telephone-Simple-Normal Platform Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3409174319111325077, guid: 7281c5ecfeef51e48b6e11a2aff19bd6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6419129025013290674, guid: 7281c5ecfeef51e48b6e11a2aff19bd6, type: 3}
       propertyPath: m_FlipX
@@ -1461,6 +1505,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteor-Simple-Patrol Platform Variant Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 2751598558812873045, guid: 05a1b839b89d4c24db40bec46797922d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3695070117996916113, guid: 05a1b839b89d4c24db40bec46797922d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.2
@@ -1534,6 +1582,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blade-Normal Platform (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1402558700826988148, guid: f4e380d43afd859418948bcc49ed513b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5253086640371059363, guid: f4e380d43afd859418948bcc49ed513b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.43836
@@ -1590,6 +1642,10 @@ PrefabInstance:
     - target: {fileID: 1646967677436304765, guid: 19420ca5d44375445a10f0184cdecc00, type: 3}
       propertyPath: m_Name
       value: Sphere-Simple-Normal Platform Variant (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646967677436304765, guid: 19420ca5d44375445a10f0184cdecc00, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6478878526612091227, guid: 19420ca5d44375445a10f0184cdecc00, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1648,6 +1704,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blade-Normal Platform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1402558700826988148, guid: f4e380d43afd859418948bcc49ed513b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5253086640371059363, guid: f4e380d43afd859418948bcc49ed513b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.13
@@ -1705,6 +1765,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Telephone-Simple-Normal Platform Variant Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 3409174319111325077, guid: 7281c5ecfeef51e48b6e11a2aff19bd6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6952849923448072627, guid: 7281c5ecfeef51e48b6e11a2aff19bd6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.85
@@ -1761,6 +1825,10 @@ PrefabInstance:
     - target: {fileID: 1646967677436304765, guid: 19420ca5d44375445a10f0184cdecc00, type: 3}
       propertyPath: m_Name
       value: Sphere-Simple-Normal Platform Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646967677436304765, guid: 19420ca5d44375445a10f0184cdecc00, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6478878526612091227, guid: 19420ca5d44375445a10f0184cdecc00, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1971,6 +2039,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bathtub-Slimed-Normal Platform Variant Variant 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2132443183339392227, guid: 0e812b90089bd804cb511f2a7cf99f0a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5955262938160783557, guid: 0e812b90089bd804cb511f2a7cf99f0a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.97
@@ -2104,6 +2176,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheel-Simple-Patrol Platform Variant Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 6403934867346673440, guid: deac4e066cee16249b17a2f42553d69a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2193,6 +2269,10 @@ PrefabInstance:
     - target: {fileID: 1402558700826988148, guid: f4e380d43afd859418948bcc49ed513b, type: 3}
       propertyPath: m_Name
       value: Blade-Normal Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 1402558700826988148, guid: f4e380d43afd859418948bcc49ed513b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5253086640371059363, guid: f4e380d43afd859418948bcc49ed513b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2433,6 +2513,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere-Simple-Normal Platform Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1646967677436304765, guid: 19420ca5d44375445a10f0184cdecc00, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6478878526612091227, guid: 19420ca5d44375445a10f0184cdecc00, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.51
@@ -2490,6 +2574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteor-Simple-Patrol Platform Variant Variant 3
       objectReference: {fileID: 0}
+    - target: {fileID: 268517034412760707, guid: d539ba03bf80e754ba60362fec07c00d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1644328639871390279, guid: d539ba03bf80e754ba60362fec07c00d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.51
@@ -2546,6 +2634,10 @@ PrefabInstance:
     - target: {fileID: 721734991922012454, guid: 2ff8eafa9479ae74d87d34226975cfac, type: 3}
       propertyPath: m_Name
       value: Meteor-Simple-Normal Platform Variant Variant 3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 721734991922012454, guid: 2ff8eafa9479ae74d87d34226975cfac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4987371512353885440, guid: 2ff8eafa9479ae74d87d34226975cfac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2700,6 +2792,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sheep (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3115873741033867034, guid: 73aaf4db4d8a8b84db95400b3f0c71a4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3408624650830502627, guid: 73aaf4db4d8a8b84db95400b3f0c71a4, type: 3}
       propertyPath: m_FlipX
       value: 1
@@ -2780,6 +2876,10 @@ PrefabInstance:
     - target: {fileID: 1402558700826988148, guid: f4e380d43afd859418948bcc49ed513b, type: 3}
       propertyPath: m_Name
       value: Blade-Normal Platform (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1402558700826988148, guid: f4e380d43afd859418948bcc49ed513b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5253086640371059363, guid: f4e380d43afd859418948bcc49ed513b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2894,6 +2994,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteor-Simple-Patrol Platform Variant Variant 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6391580208062001087, guid: c04a16c2a33cbf94ca436d8f12bbf705, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2983,6 +3087,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheel-Oiled-Normal Platform Variant Variant Variant 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7012427922613466966, guid: a543368e8abe9494db20ef00c0f7a26e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3039,6 +3147,10 @@ PrefabInstance:
     - target: {fileID: 8070285727791921002, guid: 5f46e66c49ca62a488ee4034834cf75f, type: 3}
       propertyPath: m_Name
       value: Meteor-Simple-Normal Platform Variant Variant 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070285727791921002, guid: 5f46e66c49ca62a488ee4034834cf75f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3200,6 +3312,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wheel-Oiled-Normal Platform Variant Variant Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 8673044765254731154, guid: 2e3e888d72a6cf1409248c7ebedb41f5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3216,6 +3332,10 @@ PrefabInstance:
     - target: {fileID: 279290124981454849, guid: 6694c1f0b7faebf4c96f61a8f3b30493, type: 3}
       propertyPath: m_Name
       value: Piano-Slimed-Normal Platform Variant Variant Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 279290124981454849, guid: 6694c1f0b7faebf4c96f61a8f3b30493, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2537216758638524580, guid: 6694c1f0b7faebf4c96f61a8f3b30493, type: 3}
       propertyPath: m_Size.x
@@ -3406,7 +3526,7 @@ Transform:
   m_GameObject: {fileID: 1479191376}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -11.31, z: -10}
+  m_LocalPosition: {x: 0, y: -11.075999, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3477,6 +3597,10 @@ PrefabInstance:
     - target: {fileID: 1646967677436304765, guid: 19420ca5d44375445a10f0184cdecc00, type: 3}
       propertyPath: m_Name
       value: Sphere-Simple-Normal Platform Variant (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646967677436304765, guid: 19420ca5d44375445a10f0184cdecc00, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6478878526612091227, guid: 19420ca5d44375445a10f0184cdecc00, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3575,6 +3699,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bathtub-Simple-Normal Platform Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 5470619817662104781, guid: 6cc55081253039f4eb8b05af76ada88c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3591,6 +3719,10 @@ PrefabInstance:
     - target: {fileID: 3095008864445459938, guid: 7a0ac665b079615429e1ece2861c4375, type: 3}
       propertyPath: m_Name
       value: Meteor-Simple-Normal Platform Variant Variant 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095008864445459938, guid: 7a0ac665b079615429e1ece2861c4375, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7332146048905658820, guid: 7a0ac665b079615429e1ece2861c4375, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3660,6 +3792,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere-Simple-Normal Platform Variant (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1646967677436304765, guid: 19420ca5d44375445a10f0184cdecc00, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6478878526612091227, guid: 19420ca5d44375445a10f0184cdecc00, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.5
@@ -3716,6 +3852,10 @@ PrefabInstance:
     - target: {fileID: 1646967677436304765, guid: 19420ca5d44375445a10f0184cdecc00, type: 3}
       propertyPath: m_Name
       value: Sphere-Simple-Normal Platform Variant (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646967677436304765, guid: 19420ca5d44375445a10f0184cdecc00, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6478878526612091227, guid: 19420ca5d44375445a10f0184cdecc00, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3900,6 +4040,10 @@ PrefabInstance:
     - target: {fileID: 3834890904493724200, guid: 31c47bebba86ba949b6c5a26981f1ef6, type: 3}
       propertyPath: m_Name
       value: Wheel-Oiled-Patrol Platform Variant Variant Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3834890904493724200, guid: 31c47bebba86ba949b6c5a26981f1ef6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5010036215648562563, guid: 31c47bebba86ba949b6c5a26981f1ef6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4090,6 +4234,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Piano-Simple-Normal Platform Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 5209748311772975346, guid: 567dcb37ea582da468d3bee583bba76d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6281242963900287450, guid: 567dcb37ea582da468d3bee583bba76d, type: 3}
       propertyPath: m_Layer
       value: 10
@@ -4199,6 +4347,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteor-Simple-Normal Platform Variant Variant 3
       objectReference: {fileID: 0}
+    - target: {fileID: 721734991922012454, guid: 2ff8eafa9479ae74d87d34226975cfac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4987371512353885440, guid: 2ff8eafa9479ae74d87d34226975cfac, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.586891
@@ -4271,6 +4423,10 @@ PrefabInstance:
     - target: {fileID: 3115873741033867034, guid: 73aaf4db4d8a8b84db95400b3f0c71a4, type: 3}
       propertyPath: m_Name
       value: Sheep (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3115873741033867034, guid: 73aaf4db4d8a8b84db95400b3f0c71a4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3408624650830502627, guid: 73aaf4db4d8a8b84db95400b3f0c71a4, type: 3}
       propertyPath: m_FlipX
@@ -4363,6 +4519,10 @@ PrefabInstance:
     - target: {fileID: 3095008864445459938, guid: 7a0ac665b079615429e1ece2861c4375, type: 3}
       propertyPath: m_Name
       value: Meteor-Simple-Normal Platform Variant Variant 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095008864445459938, guid: 7a0ac665b079615429e1ece2861c4375, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6676916333791559365, guid: 7a0ac665b079615429e1ece2861c4375, type: 3}
       propertyPath: m_FlipY
@@ -4599,6 +4759,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meteor-Simple-Normal Platform Variant Variant 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3095008864445459938, guid: 7a0ac665b079615429e1ece2861c4375, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6676916333791559365, guid: 7a0ac665b079615429e1ece2861c4375, type: 3}
       propertyPath: m_FlipX
       value: 1
@@ -4716,6 +4880,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sword-Normal Platform (2) Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7500026742715877039, guid: effdb4d25a57e5a4a8cece76a7af3030, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4809,7 +4977,7 @@ Transform:
   m_GameObject: {fileID: 2084709741}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -11.31, z: -10}
+  m_LocalPosition: {x: 0, y: -11.075999, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4903,6 +5071,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Telephone-Simple-Normal Platform Variant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3409174319111325077, guid: 7281c5ecfeef51e48b6e11a2aff19bd6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6419129025013290674, guid: 7281c5ecfeef51e48b6e11a2aff19bd6, type: 3}
       propertyPath: m_FlipX
       value: 0
@@ -4991,6 +5163,10 @@ PrefabInstance:
     - target: {fileID: 2514493563714824766, guid: ea035933f1f54fa458536928f01ef279, type: 3}
       propertyPath: m_Name
       value: Piano-Slimed-Normal Platform Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2514493563714824766, guid: ea035933f1f54fa458536928f01ef279, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7915053543332038168, guid: ea035933f1f54fa458536928f01ef279, type: 3}
       propertyPath: m_LocalScale.x
@@ -5178,6 +5354,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sheep
       objectReference: {fileID: 0}
+    - target: {fileID: 3115873741033867034, guid: 73aaf4db4d8a8b84db95400b3f0c71a4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3408624650830502627, guid: 73aaf4db4d8a8b84db95400b3f0c71a4, type: 3}
       propertyPath: m_FlipX
       value: 1
@@ -5255,125 +5435,49 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 140836905285441709, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
-      propertyPath: m_Distance
-      value: 1.5508305
-      objectReference: {fileID: 0}
-    - target: {fileID: 560533249251641777, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 3964859674203215715, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.78
-      objectReference: {fileID: 0}
-    - target: {fileID: 3964859674203215715, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.78
-      objectReference: {fileID: 0}
-    - target: {fileID: 3964859674203215715, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.78
-      objectReference: {fileID: 0}
     - target: {fileID: 3964859674203215715, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3964859674203215715, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15.6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3964859674203215715, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3993469974113706505, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
-      propertyPath: firstJumpForce
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4547661250985483557, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4547661250985483557, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4547661250985483557, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4547661250985483557, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4547661250985483557, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7040083529864644638, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
-      propertyPath: m_Distance
-      value: 1.5565399
-      objectReference: {fileID: 0}
-    - target: {fileID: 7975646668754004885, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7975646668754004885, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 7995600787396611133, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7995600787396611133, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -14.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7995600787396611133, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7995600787396611133, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
+    - target: {fileID: 3964859674203215715, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7995600787396611133, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
+    - target: {fileID: 3964859674203215715, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7995600787396611133, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
+    - target: {fileID: 3964859674203215715, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7995600787396611133, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
+    - target: {fileID: 3964859674203215715, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7995600787396611133, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
+    - target: {fileID: 3964859674203215715, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7995600787396611133, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
+    - target: {fileID: 3964859674203215715, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7995600787396611133, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
+    - target: {fileID: 3964859674203215715, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8302448688607749533, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
-      propertyPath: m_Distance
-      value: 8.970904
-      objectReference: {fileID: 0}
-    - target: {fileID: 8578969424184031101, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
-      propertyPath: m_Distance
-      value: 1.263833
-      objectReference: {fileID: 0}
-    - target: {fileID: 8962995069873542538, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
-      propertyPath: m_Distance
-      value: 8.54183
+    - target: {fileID: 7559131807709022899, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
+      propertyPath: m_Name
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

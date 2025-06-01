@@ -22,5 +22,6 @@ namespace _Scripts.Events
         }
         
         public UnityAction onRelease;
+        public UnityAction onReleaseFinished;
     }
 }

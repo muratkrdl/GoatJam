@@ -1,9 +1,6 @@
-using System;
-using _Scripts.Abstracts.Classes;
 using _Scripts.Events;
 using _Scripts.Keys;
 using _Scripts.Object;
-using _Scripts.Object.Platforms;
 using UnityEngine;
 
 namespace _Scripts.Managers
@@ -25,12 +22,22 @@ namespace _Scripts.Managers
         {
             PhysicEvents.Instance.onHandCollisionEnter += OnHandCollisionEnter;
             PhysicEvents.Instance.onCollisionSlime += OnCollisionSlime;
-            PlayerInputEvents.Instance.onRelease += OnReleasePlayer;
+            PlayerInputEvents.Instance.onReleaseFinished += OnReleaseFinished;
         }
 
-        
+        private void OnReleaseFinished()
+        {
+            Vector2 direction = (body.transform.position - center.position).normalized;
+
+            Vector2 realDirection = direction * releaseJumpForce;
             
-        
+            Debug.LogError(body.bodyType);
+            
+            ApplyForceBody(realDirection);
+            
+            Debug.Log(realDirection);
+        }
+
         private void OnReleasePlayer()
         {
             // TODO : Calculate Force Direction
@@ -62,6 +69,7 @@ namespace _Scripts.Managers
             PhysicEvents.Instance.onCollisionSlime -= OnCollisionSlime;
             PlayerInputEvents.Instance.onRelease -= OnReleasePlayer;
             PhysicEvents.Instance.onHandCollisionEnter -= OnHandCollisionEnter;
+            PlayerInputEvents.Instance.onReleaseFinished -= OnReleaseFinished;
         }
 
         private void ApplyForceBody(Vector2 direction)
@@ -72,9 +80,8 @@ namespace _Scripts.Managers
 
         private void Start()
         {
-            Invoke(nameof(OnReleasePlayer), 0.1f); // 0.1 saniye gecikme ile
             SoundManager.Instance.PlayJump();
-            body.AddForce(Vector2.up * firstJumpForce, ForceMode2D.Impulse);
+            ApplyForceBody(Vector2.up * firstJumpForce);
         }
         
     }

@@ -64,7 +64,7 @@ namespace _Scripts.Controllers
                 });
             }
         }
-
+        
         private void OnTriggerEnterFunc(Collision2D other)
         {
             SoundManager.Instance.PlayAttach();
@@ -102,11 +102,10 @@ namespace _Scripts.Controllers
             if (!_currentHandedObstacle) return;
 
             SoundManager.Instance.PlayDetach();
-            input.ExitFromObstacle();
 
             Collider2D otherCollider = _currentHandedObstacle.GetComponent<Collider2D>();
             IgnoreCollider(otherCollider).Forget();
-
+            
             handSpring.enabled = false;
             myRigidbody.transform.SetParent(initialParent);
             myRigidbody.bodyType = RigidbodyType2D.Dynamic;
@@ -114,6 +113,8 @@ namespace _Scripts.Controllers
             _connectedBody = null;
             handSpring.connectedBody = null;
             handSpring.connectedAnchor = Vector2.zero;
+            
+            PlayerInputEvents.Instance.onReleaseFinished?.Invoke();
         }
 
         private async UniTaskVoid IgnoreCollider(Collider2D otherCollider)
