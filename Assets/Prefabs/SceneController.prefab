@@ -45,6 +45,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainMenuSceneName: MenuScene
-  gameSceneName: Scene
-  loadingScreenPrefab: {fileID: 0}
-  minimumLoadTime: 0.5
+  gameSceneName: GameScene

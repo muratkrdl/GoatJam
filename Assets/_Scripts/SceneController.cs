@@ -71,7 +71,21 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+    public void LoadNextLevel()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        int nextSceneIndex = currentSceneIndex + 1;
 
+        // Son seviyeye ulaþýldýysa ana menüye dön
+        if (nextSceneIndex >= SceneManager.sceneCountInBuildSettings)
+        {
+            LoadMainMenu();
+        }
+        else
+        {
+            SceneManager.LoadScene(nextSceneIndex);
+        }
+    }
     // Mevcut sahneyi yeniden yükle
     public void ReloadCurrentScene()
     {

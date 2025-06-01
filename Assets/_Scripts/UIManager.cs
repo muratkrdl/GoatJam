@@ -43,9 +43,6 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Button winMainMenuButton;
     [SerializeField] private Button winRestartButton;
 
-    // Start() metodunda bu butonlarý da baðlayýn:
-
-
     private bool isPaused = false;
 
     void Start()
@@ -93,23 +90,25 @@ public class UIManager : MonoBehaviour
         if (pauseQuitButton != null)
             pauseQuitButton.onClick.AddListener(OnQuitClicked);
 
+        // Death panel butonlarý
         if (restartButton != null)
             restartButton.onClick.AddListener(OnRestartClicked);
 
         if (deathMainMenuButton != null)
             deathMainMenuButton.onClick.AddListener(OnMainMenuClicked);
 
+        // Victory panel butonlarý - BU KISIM EKSÝKTÝ!
+        if (nextLevelButton != null)
+            nextLevelButton.onClick.AddListener(OnNextLevelClicked);
 
         if (winMainMenuButton != null)
             winMainMenuButton.onClick.AddListener(OnMainMenuClicked);
 
         if (winRestartButton != null)
             winRestartButton.onClick.AddListener(OnRestartClicked);
+
         // Ýlk durumlarý ayarla
         ShowMainMenu();
-
-        // Credits text'i ayarla
-        //
     }
 
     void Update()
@@ -153,7 +152,7 @@ public class UIManager : MonoBehaviour
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #else
-            Application.Quit();
+        Application.Quit();
 #endif
     }
 
@@ -201,6 +200,34 @@ public class UIManager : MonoBehaviour
         SceneController.Instance.LoadMainMenu();
     }
 
+    // Victory Panel Fonksiyonlarý
+    void OnNextLevelClicked()
+    {
+        SoundManager.Instance?.PlayButtonClick();
+        Time.timeScale = 1f;
+
+        // LoadNextLevel yoksa alternatif çözüm
+        int currentSceneIndex = UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex;
+        int nextSceneIndex = currentSceneIndex + 1;
+
+        if (nextSceneIndex < UnityEngine.SceneManagement.SceneManager.sceneCountInBuildSettings)
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene(nextSceneIndex);
+        }
+        else
+        {
+            // Son seviye ise ana menüye dön
+            SceneController.Instance.LoadMainMenu();
+        }
+    }
+
+    void OnRestartClicked()
+    {
+        SoundManager.Instance?.PlayButtonClick();
+        Time.timeScale = 1f;
+        SceneController.Instance.ReloadCurrentScene();
+    }
+
     // Panel Gösterme Fonksiyonlarý
     void ShowMainMenu()
     {
@@ -244,8 +271,7 @@ public class UIManager : MonoBehaviour
         }
     }
 
-
-
+    // Victory Panel Yönetimi
     public void ShowWinPanel()
     {
         if (winPanel != null)
@@ -265,18 +291,8 @@ public class UIManager : MonoBehaviour
         Time.timeScale = 1f;
         isPaused = false;
     }
-    // Oyun Duraklatma
-    public void PauseGame()
-    {
-        isPaused = true;
-        Time.timeScale = 0f;
 
-        if (pauseMenuPanel != null)
-            pauseMenuPanel.SetActive(true);
-
-        SoundManager.Instance?.PlayButtonClick();
-    }
-
+    // Death Panel Yönetimi
     public void ShowDeathPanel()
     {
         if (deathPanel != null)
@@ -297,12 +313,18 @@ public class UIManager : MonoBehaviour
         isPaused = false;
     }
 
-    void OnRestartClicked()
+    // Oyun Duraklatma
+    public void PauseGame()
     {
+        isPaused = true;
+        Time.timeScale = 0f;
+
+        if (pauseMenuPanel != null)
+            pauseMenuPanel.SetActive(true);
+
         SoundManager.Instance?.PlayButtonClick();
-        Time.timeScale = 1f;
-        SceneController.Instance.ReloadCurrentScene();
     }
+
     public void ResumeGame()
     {
         isPaused = false;

@@ -216,16 +216,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   visualObjectTransform: {fileID: 7213850410698776954}
-  minRpm: -400
-  maxRpm: 400
-  minAcceleration: -100
-  maxAcceleration: 200
+  minRpm: -100
+  maxRpm: 100
+  minAcceleration: -50
+  maxAcceleration: 50
   accelerationTime: 1
   randomizeTime: 3
   movePosTransform: {fileID: 5633379534706822085}
   returnPosTransform: {fileID: 7939508512779557646}
   easeMode: 9
-  duration: 5
+  duration: 6
 --- !u!1 &5929621270066318507
 GameObject:
   m_ObjectHideFlags: 0
