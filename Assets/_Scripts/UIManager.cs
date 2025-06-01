@@ -9,6 +9,12 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject settingsPanel;
     [SerializeField] private GameObject creditsPanel;
 
+    [Header("Tutorial Panel")]
+    [SerializeField] private GameObject tutorialPanel;
+    [SerializeField] private Image tutorialImage;
+    [SerializeField] private Sprite[] tutorialSprites;
+    private int currentSpriteIndex = 0;
+
     [Header("Main Menu Buttons")]
     [SerializeField] private Button playButton;
     [SerializeField] private Button settingsButton;
@@ -44,6 +50,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Button winRestartButton;
 
     private bool isPaused = false;
+    private bool isInTutorial = false;
 
     void Start()
     {
@@ -97,7 +104,7 @@ public class UIManager : MonoBehaviour
         if (deathMainMenuButton != null)
             deathMainMenuButton.onClick.AddListener(OnMainMenuClicked);
 
-        // Victory panel butonlarý - BU KISIM EKSÝKTÝ!
+        // Victory panel butonlarý
         if (nextLevelButton != null)
             nextLevelButton.onClick.AddListener(OnNextLevelClicked);
 
@@ -113,10 +120,19 @@ public class UIManager : MonoBehaviour
 
     void Update()
     {
+        // Tutorial input kontrolü
+        if (isInTutorial)
+        {
+            if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
+            {
+                NextTutorialSprite();
+            }
+        }
+
         // ESC tuþu kontrolü (sadece oyun sahnesinde)
         if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex > 0)
         {
-            if (Input.GetKeyDown(KeyCode.Escape))
+            if (Input.GetKeyDown(KeyCode.Escape) && !isInTutorial)
             {
                 if (isPaused)
                     ResumeGame();
@@ -130,7 +146,7 @@ public class UIManager : MonoBehaviour
     void OnPlayClicked()
     {
         SoundManager.Instance?.PlayButtonClick();
-        SceneController.Instance.LoadGameScene();
+        ShowTutorial(); // Artýk direkt tutorial'ý göster
     }
 
     void OnSettingsClicked()
@@ -154,6 +170,63 @@ public class UIManager : MonoBehaviour
 #else
         Application.Quit();
 #endif
+    }
+
+    // Tutorial Fonksiyonlarý
+    void ShowTutorial()
+    {
+        if (tutorialPanel != null && tutorialSprites != null && tutorialSprites.Length > 0)
+        {
+            // Panelleri ayarla
+            if (mainMenuPanel != null) mainMenuPanel.SetActive(false);
+            if (settingsPanel != null) settingsPanel.SetActive(false);
+            if (creditsPanel != null) creditsPanel.SetActive(false);
+
+            tutorialPanel.SetActive(true);
+
+            // Tutorial durumunu baþlat
+            isInTutorial = true;
+            currentSpriteIndex = 0;
+
+            // Ýlk sprite'ý göster
+            if (tutorialImage != null)
+                tutorialImage.sprite = tutorialSprites[0];
+        }
+        else
+        {
+            // Tutorial sprite'larý yoksa direkt oyunu baþlat
+            Debug.LogWarning("Tutorial sprites not assigned! Starting game directly.");
+            StartGame();
+        }
+    }
+
+    void NextTutorialSprite()
+    {
+        currentSpriteIndex++;
+
+        // Eðer daha sprite varsa göster
+        if (currentSpriteIndex < tutorialSprites.Length)
+        {
+            if (tutorialImage != null)
+                tutorialImage.sprite = tutorialSprites[currentSpriteIndex];
+        }
+        else
+        {
+            // Tüm sprite'lar bitti, oyunu baþlat
+            StartGame();
+        }
+    }
+
+    void StartGame()
+    {
+        // Tutorial'ý kapat
+        if (tutorialPanel != null)
+            tutorialPanel.SetActive(false);
+
+        isInTutorial = false;
+
+        // Oyunu baþlat
+        SceneController.Instance.LoadGameScene();
     }
 
     // Settings Fonksiyonlarý
@@ -206,7 +279,6 @@ public class UIManager : MonoBehaviour
         SoundManager.Instance?.PlayButtonClick();
         Time.timeScale = 1f;
 
-        // LoadNextLevel yoksa alternatif çözüm
         int currentSceneIndex = UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex;
         int nextSceneIndex = currentSceneIndex + 1;
 
@@ -216,7 +288,6 @@ public class UIManager : MonoBehaviour
         }
         else
         {
-            // Son seviye ise ana menüye dön
             SceneController.Instance.LoadMainMenu();
         }
     }
@@ -234,6 +305,9 @@ public class UIManager : MonoBehaviour
         if (mainMenuPanel != null) mainMenuPanel.SetActive(true);
         if (settingsPanel != null) settingsPanel.SetActive(false);
         if (creditsPanel != null) creditsPanel.SetActive(false);
+        if (tutorialPanel != null) tutorialPanel.SetActive(false);
+
+        isInTutorial = false;
     }
 
     void ShowSettings()
@@ -241,8 +315,8 @@ public class UIManager : MonoBehaviour
         if (mainMenuPanel != null) mainMenuPanel.SetActive(false);
         if (settingsPanel != null) settingsPanel.SetActive(true);
         if (creditsPanel != null) creditsPanel.SetActive(false);
+        if (tutorialPanel != null) tutorialPanel.SetActive(false);
 
-        // Slider deðerlerini güncelle
         UpdateSettingsUI();
     }
 
@@ -251,6 +325,7 @@ public class UIManager : MonoBehaviour
         if (mainMenuPanel != null) mainMenuPanel.SetActive(false);
         if (settingsPanel != null) settingsPanel.SetActive(false);
         if (creditsPanel != null) creditsPanel.SetActive(true);
+        if (tutorialPanel != null) tutorialPanel.SetActive(false);
     }
 
     void UpdateSettingsUI()
@@ -277,7 +352,6 @@ public class UIManager : MonoBehaviour
         if (winPanel != null)
             winPanel.SetActive(true);
 
-        // Oyunu durdur
         Time.timeScale = 0f;
         isPaused = true;
     }
@@ -287,7 +361,6 @@ public class UIManager : MonoBehaviour
         if (winPanel != null)
             winPanel.SetActive(false);
 
-        // Oyunu devam ettir
         Time.timeScale = 1f;
         isPaused = false;
     }
@@ -298,7 +371,6 @@ public class UIManager : MonoBehaviour
         if (deathPanel != null)
             deathPanel.SetActive(true);
 
-        // Oyunu durdur
         Time.timeScale = 0f;
         isPaused = true;
     }
@@ -308,7 +380,6 @@ public class UIManager : MonoBehaviour
         if (deathPanel != null)
             deathPanel.SetActive(false);
 
-        // Oyunu devam ettir
         Time.timeScale = 1f;
         isPaused = false;
     }
