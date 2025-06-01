@@ -27,31 +27,17 @@ namespace _Scripts.Managers
 
         private void OnReleaseFinished()
         {
-            Vector2 direction = (body.transform.position - center.position).normalized;
+            float complier = -1f;
+#if UNITY_EDITOR
+            complier = 1;
+#endif
+            Vector2 direction = complier * (body.transform.position - center.position).normalized;
 
             Vector2 realDirection = direction * releaseJumpForce;
-            
-            Debug.LogError(body.bodyType);
-            
+
             ApplyForceBody(realDirection);
             
-            Debug.Log(realDirection);
-        }
-
-        private void OnReleasePlayer()
-        {
-            // TODO : Calculate Force Direction
-            if (!_currentHoldingPlatform) return;
-            
-            Vector2 direction = (body.transform.position - center.position).normalized;
-
-            Vector2 realDirection = direction * releaseJumpForce;
-            
-            ApplyForceBody(realDirection);
-            
-            Debug.Log(realDirection);
-
-            _currentHoldingPlatform = null;
+            Debug.LogError(realDirection);
         }
 
         private void OnHandCollisionEnter(OnHandCollisionEnterParams arg0)
@@ -67,7 +53,6 @@ namespace _Scripts.Managers
         private void OnDisable()
         {
             PhysicEvents.Instance.onCollisionSlime -= OnCollisionSlime;
-            PlayerInputEvents.Instance.onRelease -= OnReleasePlayer;
             PhysicEvents.Instance.onHandCollisionEnter -= OnHandCollisionEnter;
             PlayerInputEvents.Instance.onReleaseFinished -= OnReleaseFinished;
         }
