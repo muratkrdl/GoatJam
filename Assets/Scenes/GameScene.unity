@@ -3538,7 +3538,7 @@ Transform:
   m_GameObject: {fileID: 1479191376}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -11.875999, z: -10}
+  m_LocalPosition: {x: 0, y: -11.220799, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4939,7 +4939,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.41960788, g: 0.6039216, b: 0.9058824, a: 0}
+  m_BackGroundColor: {r: 0.043137256, g: 0.098039225, b: 0.25490198, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -4989,7 +4989,7 @@ Transform:
   m_GameObject: {fileID: 2084709741}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -11.875999, z: -10}
+  m_LocalPosition: {x: 0, y: -11.220799, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5329,6 +5329,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1058162774690288834, guid: 4f2798c2cd8ebf44b8839beb7331937f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 58.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 2130122651338739162, guid: 4f2798c2cd8ebf44b8839beb7331937f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7376571049323634919, guid: 4f2798c2cd8ebf44b8839beb7331937f, type: 3}
       propertyPath: m_LocalPosition.y
       value: -42.1
@@ -5490,6 +5498,14 @@ PrefabInstance:
     - target: {fileID: 7559131807709022899, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7975646668754004885, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7975646668754004885, guid: 8148e0b7c34efe347b6f005e17211033, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -14.16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
