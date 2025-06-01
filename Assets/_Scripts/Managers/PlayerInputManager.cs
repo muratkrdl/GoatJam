@@ -11,7 +11,7 @@ namespace _Scripts.Managers
 
         private bool _canChangeScale = true;
         
-        private Vector2 _baseScale = Vector2.one;
+        // private Vector2 _baseScale = Vector2.one;
         
         private void OnEnable()
         {
@@ -23,21 +23,31 @@ namespace _Scripts.Managers
         {
             if (!_canChangeScale) return;
             
-            Vector2 bodyScales = body.transform.localScale;
-            _baseScale = bodyScales;
+            Vector3 bodyScales = body.transform.localScale;
             bodyScales *= -1;
+            bodyScales.z = 1;
             body.transform.localScale = bodyScales;
         }
 
         private void OnHandCollisionEnter(OnHandCollisionEnterParams arg0)
         {
             _canChangeScale = false;
-            body.transform.localScale = _baseScale;
+            
+            Vector3 bodyScales = body.transform.localScale;
+            
+            if (bodyScales.x < 0)
+            {
+                bodyScales *= -1;
+                bodyScales.z = 1;
+            }
+    
+            body.transform.localScale = bodyScales;
         }
         
         public void ExitFromObstacle()
         {
             _canChangeScale = true;
+            body.rotation = -180f;
         }
 
     }

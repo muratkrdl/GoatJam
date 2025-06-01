@@ -110,7 +110,7 @@ namespace _Scripts.Controllers
         private async UniTaskVoid IgnoreCollider(Collider2D otherCollider)
         {
             Physics2D.IgnoreCollision(_handCollider, otherCollider, true);
-            await UniTask.Delay(TimeSpan.FromSeconds(3f));
+            await UniTask.Delay(TimeSpan.FromSeconds(.5f));
             Physics2D.IgnoreCollision(_handCollider, otherCollider, false);
         }
         
