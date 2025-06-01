@@ -1,3 +1,4 @@
+using System;
 using _Scripts.Events;
 using _Scripts.Extensions;
 using UnityEngine;
@@ -5,8 +6,23 @@ using UnityEngine.InputSystem;
 
 namespace _Scripts.Managers
 {
-    public class InputManager : MonoSingleton<InputManager>
+    public class InputManager : MonoBehaviour
     {
+        public static InputManager Instance;
+
+        private void Awake()
+        {
+            if (!Instance)
+            {
+                Instance = this;
+                DontDestroyOnLoad(this);
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
+        }
+
         private PlayerInputActions _input;
 
         private void OnEnable()
