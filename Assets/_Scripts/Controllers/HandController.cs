@@ -67,6 +67,8 @@ namespace _Scripts.Controllers
 
         private void OnTriggerEnterFunc(Collision2D other)
         {
+            SoundManager.Instance.PlayAttach();
+            
             if (other.transform.TryGetComponent<OneTimePatrolPlatform>(out var platform))
             {
                 platform.StartMove();
@@ -99,6 +101,7 @@ namespace _Scripts.Controllers
             // Exit from obstacle
             if (!_currentHandedObstacle) return;
             
+            SoundManager.Instance.PlayDetach();
             input.ExitFromObstacle();
             
             Collider2D otherCollider = _currentHandedObstacle.GetComponent<Collider2D>();

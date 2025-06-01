@@ -69,6 +69,7 @@ namespace _Scripts.Managers
 
         private void Start()
         {
+            SoundManager.Instance.PlayJump();
             body.AddForce(Vector2.up * firstJumpForce, ForceMode2D.Impulse);
         }
         
