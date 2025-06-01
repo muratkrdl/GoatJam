@@ -22,10 +22,17 @@ namespace _Scripts.Object.Platforms
 
         private void StartMove()
         {
-            visualObjectTransform.DOMove(movePosTransform.position, duration).SetEase(easeMode).OnComplete(() =>
+            Move(true);
+        }
+
+        private void Move(bool go)
+        {
+            Transform movePos = go ? movePosTransform : returnPosTransform;
+            
+            visualObjectTransform.DOMove(movePos.position, duration).SetEase(easeMode).OnComplete(() =>
             {
-                visualObjectTransform.position = returnPosTransform.position;
-                StartMove();
+                visualObjectTransform.position = movePos.position;
+                Move(!go);
             });
         }
 
