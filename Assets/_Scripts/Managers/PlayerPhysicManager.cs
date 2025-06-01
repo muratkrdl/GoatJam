@@ -36,8 +36,6 @@ namespace _Scripts.Managers
             Vector2 realDirection = direction * releaseJumpForce;
 
             ApplyForceBody(realDirection);
-            
-            Debug.LogError(realDirection);
         }
 
         private void OnHandCollisionEnter(OnHandCollisionEnterParams arg0)
