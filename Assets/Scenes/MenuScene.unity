@@ -589,7 +589,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -12, y: -9}
+  m_AnchoredPosition: {x: -12, y: -14}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1823675481
@@ -612,7 +612,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4369572136041557648, guid: 53ee20f2b803d1c4394edf2df7a69a72, type: 3}
+  m_Sprite: {fileID: 2200474731274065258, guid: 9a5b4ff259b913d4dafa144482a88cd2, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -995,6 +995,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sound Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 6137917453961794947, guid: f9ca6fbf38c90f74abca7bd505007378, type: 3}
+      propertyPath: gameMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f1121f2e13f4f14192cba1862c2d941, type: 3}
+    - target: {fileID: 6137917453961794947, guid: f9ca6fbf38c90f74abca7bd505007378, type: 3}
+      propertyPath: mainMenuMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f1121f2e13f4f14192cba1862c2d941, type: 3}
     - target: {fileID: 8294673366078895689, guid: f9ca6fbf38c90f74abca7bd505007378, type: 3}
       propertyPath: m_LocalPosition.x
       value: -586.4195
@@ -1068,18 +1076,54 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1516084596175647002, guid: 2c374d68270ac6b4db038a527c686858, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1650939635811107379, guid: 2c374d68270ac6b4db038a527c686858, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510455526217601176, guid: 2c374d68270ac6b4db038a527c686858, type: 3}
+      propertyPath: m_Name
+      value: Sfx Icon
       objectReference: {fileID: 0}
     - target: {fileID: 2821790049467853422, guid: 2c374d68270ac6b4db038a527c686858, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -124.20001
       objectReference: {fileID: 0}
+    - target: {fileID: 2964203962627751182, guid: 2c374d68270ac6b4db038a527c686858, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3024984496709789342, guid: 2c374d68270ac6b4db038a527c686858, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322488717374462282, guid: 2c374d68270ac6b4db038a527c686858, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4833594715466439974, guid: 2c374d68270ac6b4db038a527c686858, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 5146115713475169811, guid: 2c374d68270ac6b4db038a527c686858, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 5179567214739648288, guid: 2c374d68270ac6b4db038a527c686858, type: 3}
+      propertyPath: m_text
+      value: "How to Play : \nPress \"Space\" to jumo\nPress \"R\" to Restart"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5179567214739648288, guid: 2c374d68270ac6b4db038a527c686858, type: 3}
+      propertyPath: m_fontSize
+      value: 21.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5805232268361625578, guid: 2c374d68270ac6b4db038a527c686858, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7895058522316621897, guid: 4969f2c1059761b47b2454ed0700778a, type: 3}
     - target: {fileID: 5922113572310995674, guid: 2c374d68270ac6b4db038a527c686858, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1164,6 +1208,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 123
       objectReference: {fileID: 0}
+    - target: {fileID: 6666192918539177161, guid: 2c374d68270ac6b4db038a527c686858, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6937100921473912987, guid: 2c374d68270ac6b4db038a527c686858, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6989495785908772370, guid: 1eec228abf64fa34198904b7792d88b3, type: 3}
     - target: {fileID: 7166325688825293422, guid: 2c374d68270ac6b4db038a527c686858, type: 3}
       propertyPath: m_Name
       value: Canvas
