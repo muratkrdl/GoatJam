@@ -27,6 +27,9 @@ namespace _Scripts.Managers
             PhysicEvents.Instance.onCollisionSlime += OnCollisionSlime;
             PlayerInputEvents.Instance.onRelease += OnReleasePlayer;
         }
+
+        
+            
         
         private void OnReleasePlayer()
         {
@@ -69,6 +72,7 @@ namespace _Scripts.Managers
 
         private void Start()
         {
+            Invoke(nameof(OnReleasePlayer), 0.1f); // 0.1 saniye gecikme ile
             SoundManager.Instance.PlayJump();
             body.AddForce(Vector2.up * firstJumpForce, ForceMode2D.Impulse);
         }

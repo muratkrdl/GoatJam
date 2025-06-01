@@ -46,12 +46,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   visualObjectTransform: {fileID: 7979859534880977414}
-  minRpm: -50
-  maxRpm: 50
-  minAcceleration: -20
-  maxAcceleration: 20
-  accelerationTime: 1
-  randomizeTime: 7.5
+  minRpm: -500
+  maxRpm: 300
+  minAcceleration: -70
+  maxAcceleration: 70
+  accelerationTime: 2
+  randomizeTime: 3
 --- !u!1 &2777993849858090085
 GameObject:
   m_ObjectHideFlags: 0

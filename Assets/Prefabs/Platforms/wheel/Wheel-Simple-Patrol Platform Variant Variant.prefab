@@ -10,11 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3169012104838789290, guid: ef5d5f23ea4ca7e4da8355446bcd38f8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.889605
+      value: 2.9
       objectReference: {fileID: 0}
     - target: {fileID: 3169012104838789290, guid: ef5d5f23ea4ca7e4da8355446bcd38f8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.232748
+      value: 15.06
       objectReference: {fileID: 0}
     - target: {fileID: 3169012104838789290, guid: ef5d5f23ea4ca7e4da8355446bcd38f8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -47,6 +47,22 @@ PrefabInstance:
     - target: {fileID: 3169012104838789290, guid: ef5d5f23ea4ca7e4da8355446bcd38f8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3947271839972207201, guid: ef5d5f23ea4ca7e4da8355446bcd38f8, type: 3}
+      propertyPath: minRpm
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3947271839972207201, guid: ef5d5f23ea4ca7e4da8355446bcd38f8, type: 3}
+      propertyPath: randomizeTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3947271839972207201, guid: ef5d5f23ea4ca7e4da8355446bcd38f8, type: 3}
+      propertyPath: minAcceleration
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3947271839972207201, guid: ef5d5f23ea4ca7e4da8355446bcd38f8, type: 3}
+      propertyPath: accelerationTime
+      value: 1.7
       objectReference: {fileID: 0}
     - target: {fileID: 4508865491083555950, guid: ef5d5f23ea4ca7e4da8355446bcd38f8, type: 3}
       propertyPath: m_Name

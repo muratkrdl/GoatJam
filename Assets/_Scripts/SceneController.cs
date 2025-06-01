@@ -40,6 +40,14 @@ public class SceneController : MonoBehaviour
         }
     }
 
+    void Update()
+    {
+        // R tuþuna basýldýðýnda sahneyi yeniden yükle
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            ReloadCurrentScene();
+        }
+    }
     // Ana menüye git
     public void LoadMainMenu()
     {
