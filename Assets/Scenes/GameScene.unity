@@ -585,6 +585,7 @@ GameObject:
   - component: {fileID: 191253574}
   - component: {fileID: 191253576}
   - component: {fileID: 191253575}
+  - component: {fileID: 191253577}
   m_Layer: 5
   m_Name: Metres
   m_TagString: Untagged
@@ -710,6 +711,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 191253573}
   m_CullTransparentMesh: 1
+--- !u!114 &191253577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191253573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16e845623bac452ea6dbc8107a876537, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  metreText: {fileID: 191253575}
+  appleTransform: {fileID: 783846892}
+  playerHeadTransform: {fileID: 1198938624}
 --- !u!1001 &197406868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2375,7 +2391,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7661760343592927835, guid: 5725a460ff9f5bd49a3bc2c5d831ec90, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 186.3
+      value: 188.3
       objectReference: {fileID: 0}
     - target: {fileID: 7661760343592927835, guid: 5725a460ff9f5bd49a3bc2c5d831ec90, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2422,6 +2438,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5725a460ff9f5bd49a3bc2c5d831ec90, type: 3}
+--- !u!4 &783846892 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7661760343592927835, guid: 5725a460ff9f5bd49a3bc2c5d831ec90, type: 3}
+  m_PrefabInstance: {fileID: 783846891}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &784383617
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5729,6 +5750,7 @@ SceneRoots:
   - {fileID: 203040942}
   - {fileID: 628584492}
   - {fileID: 302338686}
+  - {fileID: 783846891}
   - {fileID: 278777479}
   - {fileID: 2133658687}
   - {fileID: 2084709744}
@@ -5746,7 +5768,6 @@ SceneRoots:
   - {fileID: 679884076}
   - {fileID: 92840769}
   - {fileID: 733405185250517526}
-  - {fileID: 783846891}
   - {fileID: 8304682385982670695}
   - {fileID: 2100006251}
   - {fileID: 426670071}
