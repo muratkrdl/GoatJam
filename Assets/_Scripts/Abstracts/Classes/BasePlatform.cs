@@ -32,7 +32,7 @@ namespace _Scripts.Abstracts.Classes
 
         private void Update()
         {
-            visualObjectTransform.Rotate(_currentRpmVec * Time.fixedDeltaTime);
+            visualObjectTransform.Rotate(_currentRpmVec * Time.deltaTime);
         }
         
         private void Randomize()
