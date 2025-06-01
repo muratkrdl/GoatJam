@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 3238544696576718722}
   m_Layer: 10
   m_Name: Physics
-  m_TagString: Obstacles
+  m_TagString: Piano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

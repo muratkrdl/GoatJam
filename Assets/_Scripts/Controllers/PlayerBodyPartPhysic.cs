@@ -22,6 +22,10 @@ namespace _Scripts.Controllers
                     uiManager.ShowDeathPanel();
                 }
             }
+            if (other.CompareTag("Piano"))
+            {
+                // SoundManager.Instance.PlayPiano();
+            }
             if (other.CompareTag("LostInSpace"))
             {
                 // TODO : Player Dead
