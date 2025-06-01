@@ -12,16 +12,16 @@ namespace _Scripts.Controllers
     public class HandController : MonoBehaviour
     {
         [SerializeField] private PlayerInputManager input;
-        
+
         [SerializeField] private SpringJoint2D handSpring;
         [SerializeField] private Rigidbody2D myRigidbody;
         [SerializeField] private Transform initialParent;
-        
+
         private PolygonCollider2D _handCollider;
 
         private Transform _currentHandedObstacle;
         private Rigidbody2D _connectedBody;
-        
+
         private float _targetRotation;
         private Vector2 _attachmentNormal;
         private ContactPoint2D _contactPoint;
@@ -56,7 +56,7 @@ namespace _Scripts.Controllers
                     _contactPoint = other.GetContact(0);
                     _attachmentNormal = _contactPoint.normal;
                 }
-                
+
                 PhysicEvents.Instance.onHandCollisionEnter?.Invoke(new OnHandCollisionEnterParams()
                 {
                     Hand = this,
@@ -68,12 +68,12 @@ namespace _Scripts.Controllers
         private void OnTriggerEnterFunc(Collision2D other)
         {
             SoundManager.Instance.PlayAttach();
-            
+
             if (other.transform.TryGetComponent<OneTimePatrolPlatform>(out var platform))
             {
                 platform.StartMove();
             }
-            
+
             handSpring.enabled = true;
             myRigidbody.bodyType = RigidbodyType2D.Kinematic;
             _currentHandedObstacle = other.transform;
@@ -84,29 +84,29 @@ namespace _Scripts.Controllers
 
             StartRotationAlignment();
         }
-        
+
         private void StartRotationAlignment()
         {
             Vector2 pumpDirection = -_attachmentNormal;
-            
+
             float angle = Mathf.Atan2(pumpDirection.y, pumpDirection.x) * Mathf.Rad2Deg + 90f;
-            
+
             _targetRotation = angle;
-            
+
             myRigidbody.transform.rotation = Quaternion.Euler(0, 0, _targetRotation);
         }
-        
+
         private void OnTriggerExitFunc()
         {
             // Exit from obstacle
             if (!_currentHandedObstacle) return;
-            
+
             SoundManager.Instance.PlayDetach();
             input.ExitFromObstacle();
-            
+
             Collider2D otherCollider = _currentHandedObstacle.GetComponent<Collider2D>();
             IgnoreCollider(otherCollider).Forget();
-            
+
             handSpring.enabled = false;
             myRigidbody.transform.SetParent(initialParent);
             myRigidbody.bodyType = RigidbodyType2D.Dynamic;
@@ -122,6 +122,12 @@ namespace _Scripts.Controllers
             await UniTask.Delay(TimeSpan.FromSeconds(.5f));
             Physics2D.IgnoreCollision(_handCollider, otherCollider, false);
         }
-        
+
+        private void OnDisable()
+        {
+            PhysicEvents.Instance.onHandCollisionEnter -= OnHandCollisionEnter;
+            PlayerInputEvents.Instance.onRelease -= OnRelease;
+        }
+
     }
 }
