@@ -1003,6 +1003,22 @@ PrefabInstance:
       propertyPath: mainMenuMusic
       value: 
       objectReference: {fileID: 8300000, guid: 5f1121f2e13f4f14192cba1862c2d941, type: 3}
+    - target: {fileID: 6251395546204805364, guid: f9ca6fbf38c90f74abca7bd505007378, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6251395546204805364, guid: f9ca6fbf38c90f74abca7bd505007378, type: 3}
+      propertyPath: m_Volume
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6251395546204805364, guid: f9ca6fbf38c90f74abca7bd505007378, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: e8e2690e778e29f409a04cace92fab48, type: 3}
+    - target: {fileID: 6251395546204805364, guid: f9ca6fbf38c90f74abca7bd505007378, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e8e2690e778e29f409a04cace92fab48, type: 3}
     - target: {fileID: 8294673366078895689, guid: f9ca6fbf38c90f74abca7bd505007378, type: 3}
       propertyPath: m_LocalPosition.x
       value: -586.4195
