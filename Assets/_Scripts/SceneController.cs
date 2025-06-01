@@ -22,6 +22,13 @@ public class SceneController : MonoBehaviour
         }
     }
 
+    private bool _isGameOver;
+
+    public void SetISGameOver(bool isGameOver)
+    {
+        _isGameOver = isGameOver;
+    }
+
     [Header("Scene Names")]
     [SerializeField] private string mainMenuSceneName = "MainMenu";
     [SerializeField] private string gameSceneName = "GameScene";
@@ -42,13 +49,14 @@ public class SceneController : MonoBehaviour
 
     void Update()
     {
-        // R tuþuna basýldýðýnda sahneyi yeniden yükle
+        // R tuï¿½una basï¿½ldï¿½ï¿½ï¿½nda sahneyi yeniden yï¿½kle
         if (Input.GetKeyDown(KeyCode.R))
         {
+            if (_isGameOver) return;
             ReloadCurrentScene();
         }
     }
-    // Ana menüye git
+    // Ana menï¿½ye git
     public void LoadMainMenu()
     {
         SceneManager.LoadScene(mainMenuSceneName);
@@ -76,7 +84,7 @@ public class SceneController : MonoBehaviour
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         int nextSceneIndex = currentSceneIndex + 1;
 
-        // Son seviyeye ulaþýldýysa ana menüye dön
+        // Son seviyeye ulaï¿½ï¿½ldï¿½ysa ana menï¿½ye dï¿½n
         if (nextSceneIndex >= SceneManager.sceneCountInBuildSettings)
         {
             LoadMainMenu();
@@ -86,10 +94,11 @@ public class SceneController : MonoBehaviour
             SceneManager.LoadScene(nextSceneIndex);
         }
     }
-    // Mevcut sahneyi yeniden yükle
+    // Mevcut sahneyi yeniden yï¿½kle
     public void ReloadCurrentScene()
     {
         Scene currentScene = SceneManager.GetActiveScene();
+        _isGameOver = false;
         SceneManager.LoadScene(currentScene.name);
     }
 

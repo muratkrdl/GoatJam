@@ -995,6 +995,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sound Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 5909997015493452945, guid: f9ca6fbf38c90f74abca7bd505007378, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6137917453961794947, guid: f9ca6fbf38c90f74abca7bd505007378, type: 3}
       propertyPath: gameMusic
       value: 
@@ -1009,7 +1013,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6251395546204805364, guid: f9ca6fbf38c90f74abca7bd505007378, type: 3}
       propertyPath: m_Volume
-      value: 0.2
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 6251395546204805364, guid: f9ca6fbf38c90f74abca7bd505007378, type: 3}
       propertyPath: m_Resource
