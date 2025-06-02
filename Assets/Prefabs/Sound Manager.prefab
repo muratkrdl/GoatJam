@@ -49,8 +49,8 @@ MonoBehaviour:
   musicSource: {fileID: 6251395546204805364}
   sfxSource: {fileID: 5909997015493452945}
   sfxSourcePoolSize: 5
-  mainMenuMusic: {fileID: 0}
-  gameMusic: {fileID: 0}
+  mainMenuMusic: {fileID: 8300000, guid: 5f1121f2e13f4f14192cba1862c2d941, type: 3}
+  gameMusic: {fileID: 8300000, guid: 5f1121f2e13f4f14192cba1862c2d941, type: 3}
   buttonClickSound: {fileID: 8300000, guid: b38f8bcdf1b484a499f74449aa9a8b8a, type: 3}
   jumpSound: {fileID: 8300000, guid: 4a4f937ebf8645043bf5a5f6c0bbdb98, type: 3}
   landSound: {fileID: 8300000, guid: 63bd7c268606245428f9adddc0d6f352, type: 3}
@@ -60,7 +60,8 @@ MonoBehaviour:
   detachSound: {fileID: 8300000, guid: 19aeb14e41eb57d4f84670f5c5157936, type: 3}
   deathSoundbylostinspace: {fileID: 8300000, guid: 24d472c9cfe46a54fab446d6a50ba6c5, type: 3}
   deathSoundbySpike: {fileID: 8300000, guid: c1c69ca5de160c44ba9e719f65004f89, type: 3}
-  victorySound: {fileID: 8300000, guid: 5b88fc784a1849445a713b4010e8c2a2, type: 3}
+  victorySound: {fileID: 8300000, guid: 095f34264e72f1948bab07b5f3368a55, type: 3}
+  PianoSound: {fileID: 8300000, guid: 529803782cb122e40bb2c696ea9b9df3, type: 3}
 --- !u!1 &7317745654920327388
 GameObject:
   m_ObjectHideFlags: 0

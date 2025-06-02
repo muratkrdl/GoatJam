@@ -1,7 +1,6 @@
 using System;
 using _Scripts.Events;
 using _Scripts.Keys;
-using _Scripts.Managers;
 using _Scripts.Object.Platforms;
 using Cysharp.Threading.Tasks;
 using Runtime.Utilities;
@@ -11,8 +10,7 @@ namespace _Scripts.Controllers
 {
     public class HandController : MonoBehaviour
     {
-        [SerializeField] private PlayerInputManager input;
-
+        // PlayerInputManager referansý kaldýrýldý - kullanýlmýyor
         [SerializeField] private SpringJoint2D handSpring;
         [SerializeField] private Rigidbody2D myRigidbody;
         [SerializeField] private Transform initialParent;
@@ -64,7 +62,7 @@ namespace _Scripts.Controllers
                 });
             }
         }
-        
+
         private void OnTriggerEnterFunc(Collision2D other)
         {
             SoundManager.Instance.PlayAttach();
@@ -105,7 +103,7 @@ namespace _Scripts.Controllers
 
             Collider2D otherCollider = _currentHandedObstacle.GetComponent<Collider2D>();
             IgnoreCollider(otherCollider).Forget();
-            
+
             handSpring.enabled = false;
             myRigidbody.transform.SetParent(initialParent);
             myRigidbody.bodyType = RigidbodyType2D.Dynamic;
@@ -113,7 +111,7 @@ namespace _Scripts.Controllers
             _connectedBody = null;
             handSpring.connectedBody = null;
             handSpring.connectedAnchor = Vector2.zero;
-            
+
             PlayerInputEvents.Instance.onReleaseFinished?.Invoke();
         }
 
@@ -129,6 +127,5 @@ namespace _Scripts.Controllers
             PhysicEvents.Instance.onHandCollisionEnter -= OnHandCollisionEnter;
             PlayerInputEvents.Instance.onRelease -= OnRelease;
         }
-
     }
 }

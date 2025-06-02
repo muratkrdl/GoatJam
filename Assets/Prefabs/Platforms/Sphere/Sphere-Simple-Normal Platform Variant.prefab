@@ -79,15 +79,15 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2777993849858090085, guid: 5994b7732b1bbb343b2bd99bed233858, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 6575052001561282775}
+      addedObject: {fileID: 6700253289628868861}
   m_SourcePrefab: {fileID: 100100000, guid: 5994b7732b1bbb343b2bd99bed233858, type: 3}
 --- !u!1 &1379354200863361493 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2777993849858090085, guid: 5994b7732b1bbb343b2bd99bed233858, type: 3}
   m_PrefabInstance: {fileID: 3866650231930465712}
   m_PrefabAsset: {fileID: 0}
---- !u!60 &6575052001561282775
-PolygonCollider2D:
+--- !u!58 &6700253289628868861
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -120,38 +120,5 @@ PolygonCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 1.8791397, y: 0.8122801}
-      - {x: 1.5840242, y: 1.552098}
-      - {x: 0.8498186, y: 2.16942}
-      - {x: 0.5925824, y: 1.762996}
-      - {x: -0.030240893, y: 1.9525878}
-      - {x: -0.66609174, y: 1.8036237}
-      - {x: -1.1184368, y: 1.5596434}
-      - {x: -1.6012355, y: 0.5811849}
-      - {x: -1.4653777, y: -0.23646082}
-      - {x: -0.9539668, y: -0.7731021}
-      - {x: -1.3286867, y: -1.1114256}
-      - {x: -0.5620812, y: -1.4804003}
-      - {x: -0.34153897, y: -1.5707313}
-      - {x: -0.9214481, y: -1.7384498}
-      - {x: -0.9337478, y: -2.0723941}
-      - {x: 0.633147, y: -2.0640132}
-      - {x: 0.64743114, y: -1.7071007}
-      - {x: 0.2467235, y: -1.6882242}
-      - {x: 0.21623373, y: -1.5240082}
-      - {x: 0.780421, y: -1.3575523}
-      - {x: 1.3268614, y: -1.0170234}
-      - {x: 1.7826807, y: -0.15971655}
-  m_UseDelaunayMesh: 0
+  m_Offset: {x: 0.035202026, y: 0.3199997}
+  m_Radius: 1.5787058

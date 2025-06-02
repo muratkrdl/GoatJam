@@ -68,6 +68,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Slime_2
       objectReference: {fileID: 0}
+    - target: {fileID: 7117875097132976842, guid: e6498b7bbf7d31b468441a436c525d1d, type: 3}
+      propertyPath: m_TagString
+      value: Slime
+      objectReference: {fileID: 0}
     - target: {fileID: 8705519056409739858, guid: e6498b7bbf7d31b468441a436c525d1d, type: 3}
       propertyPath: m_Size.y
       value: 1.246728

@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+
+
 public class UIManager : MonoBehaviour
 {
     [Header("Main Menu Panels")]
@@ -51,6 +53,7 @@ public class UIManager : MonoBehaviour
 
     private bool isPaused = false;
     private bool isInTutorial = false;
+    private const string TUTORIAL_COMPLETED_KEY = "TutorialCompleted";
 
     void Start()
     {
@@ -146,7 +149,16 @@ public class UIManager : MonoBehaviour
     void OnPlayClicked()
     {
         SoundManager.Instance?.PlayButtonClick();
-        ShowTutorial(); // Artýk direkt tutorial'ý göster
+
+        // Tutorial daha önce tamamlanmýþ mý kontrol et
+        if (PlayerPrefs.GetInt(TUTORIAL_COMPLETED_KEY, 0) == 0)
+        {
+            ShowTutorial(); // Ýlk kez oynuyorsa tutorial göster
+        }
+        else
+        {
+            StartGame(); // Tutorial tamamlanmýþsa direkt oyunu baþlat
+        }
     }
 
     void OnSettingsClicked()
@@ -164,6 +176,12 @@ public class UIManager : MonoBehaviour
     void OnQuitClicked()
     {
         SoundManager.Instance?.PlayButtonClick();
+
+        // Quit'e basýnca tutorial'ý sýfýrla
+        PlayerPrefs.DeleteKey(TUTORIAL_COMPLETED_KEY);
+        PlayerPrefs.Save();
+
+        Debug.Log("Tutorial reset on quit!");
 
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
@@ -212,9 +230,25 @@ public class UIManager : MonoBehaviour
         }
         else
         {
-            // Tüm sprite'lar bitti, oyunu baþlat
-            StartGame();
+            // Tüm sprite'lar bitti, tutorial'ý tamamla
+            CompleteTutorial();
         }
+    }
+
+    void CompleteTutorial()
+    {
+        // Tutorial'ý tamamlandý olarak iþaretle
+        PlayerPrefs.SetInt(TUTORIAL_COMPLETED_KEY, 1);
+        PlayerPrefs.Save();
+
+        // Tutorial panelini kapat ve ana menüye dön
+        if (tutorialPanel != null)
+            tutorialPanel.SetActive(false);
+
+        isInTutorial = false;
+
+        // Ana menüyü tekrar göster
+        ShowMainMenu();
     }
 
     void StartGame()
@@ -410,5 +444,14 @@ public class UIManager : MonoBehaviour
     public bool IsPaused()
     {
         return isPaused;
+    }
+
+    // Debug fonksiyonu - Tutorial'ý sýfýrlamak için
+    [ContextMenu("Reset Tutorial")]
+    public void ResetTutorial()
+    {
+        PlayerPrefs.DeleteKey(TUTORIAL_COMPLETED_KEY);
+        PlayerPrefs.Save();
+        Debug.Log("Tutorial reset! Player can see tutorial again.");
     }
 }

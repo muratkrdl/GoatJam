@@ -15,6 +15,7 @@ public class ComicSceneManager : MonoBehaviour
     public float fadeOutDuration = 0.5f; // Sprite kaybolma süresi
     public bool useClickSound = true;
     public AudioClip clickSound;
+    public AudioClip click2Sound; // Son sayfa için farklý ses dosyasý
 
     [Header("UI")]
     public Text instructionText; // "Space veya Sol Týk ile devam edin" gibi
@@ -77,8 +78,9 @@ public class ComicSceneManager : MonoBehaviour
         GameObject currentSprite = spritesToHide[currentSpriteIndex];
         if (currentSprite != null && currentSprite.activeInHierarchy)
         {
-            // Ses çal
-            PlayClickSound();
+            // Son sprite mý kontrol et ve uygun sesi çal
+            bool isLastSprite = (currentSpriteIndex == spritesToHide.Count - 1);
+            PlayClickSound(isLastSprite);
 
             // Sprite'ý kaybet
             StartCoroutine(FadeOutSprite(currentSprite));
@@ -136,11 +138,19 @@ public class ComicSceneManager : MonoBehaviour
         isTransitioning = false;
     }
 
-    void PlayClickSound()
+    void PlayClickSound(bool isLastSprite = false)
     {
-        if (useClickSound && audioSource != null && clickSound != null)
+        if (useClickSound && audioSource != null)
         {
-            audioSource.PlayOneShot(clickSound);
+            // Son sprite için click2 sesini çal, diðerleri için normal click sesini
+            if (isLastSprite && click2Sound != null)
+            {
+                audioSource.PlayOneShot(click2Sound);
+            }
+            else if (clickSound != null)
+            {
+                audioSource.PlayOneShot(clickSound);
+            }
         }
     }
 

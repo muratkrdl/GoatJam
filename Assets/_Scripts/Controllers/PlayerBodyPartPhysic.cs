@@ -1,8 +1,8 @@
-using System;
+using UnityEngine;
 using _Scripts.Events;
+using _Scripts.Managers;
 using _Scripts.Object;
 using Runtime.Utilities;
-using UnityEngine;
 
 namespace _Scripts.Controllers
 {
@@ -15,7 +15,7 @@ namespace _Scripts.Controllers
                 // TODO : Player Dead
                 Debug.Log("Spike");
                 SoundManager.Instance?.PlayDeathbySpike();
-                // Death panel'i g�ster ve oyunu durdur
+                // Death panel'i göster ve oyunu durdur
                 UIManager uiManager = FindFirstObjectByType<UIManager>();
                 SceneController.Instance.SetISGameOver(true);
                 if (uiManager != null)
@@ -23,16 +23,15 @@ namespace _Scripts.Controllers
                     uiManager.ShowDeathPanel();
                 }
             }
-            if (other.CompareTag("Piano"))
-            {
-                SoundManager.Instance.PlayPiano();
-            }
+
+            // Piano kodu kaldırıldı - PianoTriggerManager hallediyor
+
             if (other.CompareTag("LostInSpace"))
             {
                 // TODO : Player Dead
                 Debug.Log("Lost in Space");
                 SoundManager.Instance?.PlayDeathbylostinspace();
-                // Death panel'i g�ster ve oyunu durdur
+                // Death panel'i göster ve oyunu durdur
                 UIManager uiManager = FindFirstObjectByType<UIManager>();
                 SceneController.Instance.SetISGameOver(true);
                 if (uiManager != null)
@@ -40,19 +39,19 @@ namespace _Scripts.Controllers
                     uiManager.ShowDeathPanel();
                 }
             }
+
             if (other.CompareTag("Elma")) // Elma tag'i eklendi
             {
                 // TODO : Player Win
                 Debug.Log("Apple collected - Victory!");
                 SoundManager.Instance?.PlayVictory();
-                // Win panel'i g�ster ve oyunu durdur
+                // Win panel'i göster ve oyunu durdur
                 UIManager uiManager = FindFirstObjectByType<UIManager>();
                 if (uiManager != null)
                 {
                     uiManager.ShowWinPanel();
                 }
-
-                // Elmay� yok et (opsiyonel)
+                // Elmayı yok et (opsiyonel)
                 Destroy(other.gameObject);
             }
         }
