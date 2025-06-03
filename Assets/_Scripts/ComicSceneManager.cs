@@ -59,7 +59,7 @@ public class ComicSceneManager : MonoBehaviour
         if (isTransitioning) return;
 
         // Space tuþu veya sol mouse týklamasý kontrolü
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
             HideNextSprite();
         }
